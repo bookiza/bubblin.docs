@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Bubblin Superbooks | Official Documentation
+title: Bubblin Superbooks | Documentation
 email: contact@bubblin.io
 description: >- # this means to ignore newlines until "baseurl:"
   Bubblin Superbooks — An online café of books, comics and magazines. Read, write and share books on web for free!
@@ -30,13 +30,15 @@ github_username:  bubblin
 
 # Build settings
 markdown: kramdown
-theme: bubblin-jekyll
+theme: doccoli-jekyll
 plugins:
   - jekyll-feed
 
 permalink: :title
 
 comments: true
+
+search: true
 
 disqus:
     shortname: bubblin
