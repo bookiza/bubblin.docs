@@ -1,9 +1,23 @@
 ---
 layout: post
 title:  "Introduction"
-date:   2017-11-08 13:45:06 -0500
-categories: jekyll update
+date:   2018-01-01 12:00:01 -0500
+categories: documentation introduction
+published: true
 ---
+
+## Bubblin Superbooks.
+
+Bubblin is a world class *open* and *decentralized* storytelling substrate for writers and artists alike. Publish for the world to enjoy your stories, build your own fan following of readers, make loads of money and avoid middlemen (including us) completely. Our platform works on all devices, all viewports and all modern OSes out there. It comes integrated with a development environment, testing and publish pipeline for Ethereum, aiming to make life as an Ethereum developer easier. With Truffle, you get:
+
+### Publish for the world.
+
+Let your book reach everyone, not just those behind iOS or Kindle. Good thing about using Bubblin and Bookiza is that your story will be available to people on those devices too.
+
+#### A Simple Static Book.
+
+Let us begin with the a simple example. It is fine if you do not understand everything right now, we will go into more detail later.
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
