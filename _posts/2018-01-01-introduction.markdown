@@ -1,39 +1,30 @@
 ---
 layout: post
 title:  "Introduction"
-date:   2018-01-01 12:00:01 -0500
+date:   2018-01-01 00:00:03 -0500
 categories: documentation introduction
 published: true
 ---
 
 ## Bubblin Superbooks.
 
-Bubblin is a world class *open* and *decentralized* storytelling substrate for writers and artists alike. Publish for the world to enjoy your stories, build your own fan following of readers, make loads of money and avoid middlemen (including us) completely. Our platform works on all devices, all viewports and all modern OSes out there. It comes integrated with a development environment, testing and publish pipeline for Ethereum, aiming to make life as an Ethereum developer easier. With Truffle, you get:
+Bubblin is a world class *open* and *managed* storytelling substrate for writers and artists. On the front it is a community of readers around the world but on the back it's a solid open engine for creativity with Superbook objects.
 
-### Publish for the world.
+Note, if you prefer a "decentralized" approach and want to be on your own for your book, head over to [Bookiza](http://bookiza.io) to learn more.
 
-Let your book reach everyone, not just those behind iOS or Kindle. Good thing about using Bubblin and Bookiza is that your story will be available to people on those devices too.
+### The Bubblin advantage
+Publish for the community, make new fans, measure metrics down to last page of your book. Lower the friction for your readers and see the world enjoy your work in real time. Bubblin will take your work automatically to everyone and not just those behind iOS or Kindle. Good thing is that your book will be available to people on those devices too!
 
-#### A Simple Static Book.
 
-Let us begin with the a simple example. It is fine if you do not understand everything right now, we will go into more detail later.
+> What's the "Superbook" in Bubblin Superbooks?
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Superbook is basically a `_superclass` container for all your longform: i.e. books, novels, comics, magazine or anything that needs multi-page storytelling. It's like a multipage document (PDF) but a lot less enterprise-y.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+A Superbook works on all devices, all viewports and all modern browsers on all OSes out there. See [support](https://bubblin.io/support) information to learn more.
 
-Jekyll also offers powerful support for code snippets:
+### Environment:
+[https://bubblin.io](https://bubblin.io) is the `production` environment for all your work.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+It comes with a pre-built RESTful api, a browser-side `development` environment (code playground) and a locally installed client apparatus (a node based `development` environment [Bookiza](http://bookiza.io) and CLI tool) to help you create, test and publish your best on the web.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Our FREE and opensource templates will help make your life as a creative writer/developer easier.

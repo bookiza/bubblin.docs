@@ -1,22 +1,107 @@
 ---
 layout: post
 title:  "Tutorial"
-date:   2017-01-01 12:00:05 -0500
+date:   2018-01-01 00:00:01 -0500
 categories: documentation introduction
 published: true
 ---
 
-## Account.
+### Account.
 
-First thing you need to be able to publish is a Bubblin account. Go [sign up](https://bubblin.io/users/new) now if you haven't already.
+First thing you'll need (to be able to publish) is a Bubblin Account. Go [sign up](https://bubblin.io/users/new) if you haven't already.
 
-#### Quick Editor (web)
+#### Using the web editor
 
-Let your book reach everyone, not just those behind iOS or Kindle. Good thing about using Bubblin and Bookiza is that your story will be available to people on those devices too.
+Bubblin let's your book reach everyone on web and not just those behind iOS or Kindle. It's strategic apart from being noble. Good thing is that your work will be available to people on those devices too.
 
-#### A Simple Static Book.
+There are two ways to write a book on web: [Bookiza](http://bookiza.io) or the web editor. This tutorial focuses on using the web editor.
 
-Let us begin with the a simple example. It is fine if you do not understand everything right now, we will go into more detail later.
+#### A simple static book.
+
+Let us begin with the a simple example. It is fine if you don't understand everything immediately, we will go into all the basics through this article and learn how to create and publish a Superbook on web.
+
+In Bubblin Superbooks, *Superbook* is the superclass of all books. It's an empty container that hold the pages of your book, comics or magazine together.
+
+Here's a [demo](https://bubblin.io/book/the-solar-system-by-marvin-danig) of Superbook if you will. Like it? Awesome! Let's continue to making one now:
+
+###### Step - 1: A new project
+
+This tutorial assumes that you have not written any HTML or CSS before or have only limited knowledge of it. Don't worry, we'll walk through each step and get you going on these terms quickly.
+
+The good news is: it's very simple!
+
+There are only three steps to create a professional grade responsive book for web. This book will work everywhere — on Android tablets, iPads, Kindle, iPhones, Android phones, FirefoxOS, Windows, Linux, Mac or even the LCD TVs — and the book can be read offline too. 
+
+To create a new *project*, login into your Bubblin Account and click open a new project from the side panel as shown below: 
+
+Once logged in click on the Bubblin's logo (Tiger Eye) or press '⌘ + M' to slide out a menu from the left. Windows users may use 'CTRL + M' instead.
+
+A new project will look something like this:
+
+
+
+Four bluish pages (two leaves) with three large textareas at the bottom to type in HTML, CSS and JavaScript respectively will show up.
+
+We're gonna have to construct an HTML wrapper for our pages. Do not worry you don't have to write HTML yourself (but you can if you want to!). Consider the following:
+
+Here, paste the following code into the HTML textarea:
+
+ 
+
+ 
+It is using a cool flexbox class. Awesome!
+
+So now you'll have a heading saying "Hello world!" and a bit of  a lorem ipsum text inside a paragraph tag. Try typing in a few words there, add a paragraph may be.
+
+Good? Next we'll make this HTML our superbook template so that we don't have to copy-pasta it each time we want to add a new leaf (Two pages) to the book.
+
+Go to the Template dropdown menu and click open the HTML option (see below).
+
+
+
+Throw in the HTML we got, click save, and Bubblin is now ready to magically add our HTML in the new pages of our book. Yay!
+
+###### Step Two: Styling with CSS
+Now that we have HTML out of the way we need to sprinkle some style into our book -- i.e. give it a layout and typeset it. Enter CSS.
+
+CSS is nothing but a set of simple design rules for your text (book). It stands for Cascading Style Sheets. Copy the following style rules and paste it inside the CSS option of the Template dropdown menu:
+
+![templates](https://marvindanig.files.wordpress.com/2016/03/templates.jpg)
+ 
+
+ 
+Wow. Did you notice what just happened?
+
+
+
+
+
+It altered the typography in there and positioned the heading "hello world" in the middle of the page. It also set up appropriate margins on either sides of text — in a way that your content will organize itself.
+
+Add no more than 2-3 paragraph of content in there and the book will auto-position the text centrally along the page - both vertically and horizontally. Live preview or full static preview (on a separate tab) can be seen by clicking the following link:
+
+
+
+Do not cram in too much content on just one page,  stick to just two mid-sized paragraphs or three small ones at most. Flip over to the next content is about to overflow.
+
+You're all set for the whole book now.
+
+Note: When you paste in style into the Template CSS option you'll see that all of the pages will turn from default bluish color to white as soon as you hit save. This is a very powerful feature because it lets you apply layout to the entire book from just one place but at the same time gives flexibility to customize individual pages independently!
+
+Step 3: Templates & Book Types
+Finally, a consideration to what books can look like and the corresponding  starting point. For example, it could be a comics. Or a fashion magazine. Or simply ABC for babies.
+
+Whatever it is that you're plotting  you should be able to find a FREE template out there for that. I recommend to use lightweight web-compatible serif fonts hosted off Google or elsewhere to add flavorful typography to your book. Once you get comfortable with CSS & HTML, you might want to consider using JavaScript for a bit more advanced use cases.
+
+That's it. That is how I usually write my books, but more often than not I use bookiza.
+
+---
+
+P.S.: Well now it's time to reveal the surprise: There is no fourth step!
+
+
+
+
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
