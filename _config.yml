@@ -45,6 +45,13 @@ disqus:
 
 google_analytics: UA-107952514-1
 
+include: ['_pages']
+
+collections:
+  pages:
+    output: true
+    permalink: /:path
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

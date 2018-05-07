@@ -5,11 +5,6 @@ date:   2018-01-01 00:00:01 -0500
 categories: documentation introduction
 published: true
 ---
-
-### Account.
-
-First thing you'll need (to be able to publish) is a Bubblin Account. Go [sign up](https://bubblin.io/users/new) if you haven't already.
-
 #### Using the web editor
 
 Bubblin let's your book reach everyone on web and not just those behind iOS or Kindle. It's strategic apart from being noble. Good thing is that your work will be available to people on those devices too.
