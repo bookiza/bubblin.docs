@@ -7,15 +7,17 @@ published: true
 ---
 #### Using the web editor
 
-Bubblin let's your book reach everyone on web and not just those behind iOS or Kindle. It's strategic apart from being noble. Good thing is that your work will be available to people on those devices too.
+Bubblin allows simple book writing over the web using its in-browser editor.
 
-There are two ways to write a book on web: [Bookiza](http://bookiza.io) or the web editor. This tutorial focuses on using the web editor.
+Its simple web editor is a code playground that is good enough for making cards, short novellas, magazines, booklets, food menus or comics that are relatively small sized packages. Theoretically, one could write a full book using the web editor but it is not recommended. Use [Bookiza](http://bookiza.io), the other way of writing and publishing a Superbook from your local.
+
+This tutorial focuses on the former option.
 
 #### A simple static book.
 
-Let us begin with the a simple example. It is fine if you don't understand everything immediately, we will go into all the basics through this article and learn how to create and publish a Superbook on web.
+Let us begin with the a simple example.
 
-In Bubblin Superbooks, *Superbook* is the superclass of all books. It's an empty container that hold the pages of your book, comics or magazine together.
+It is fine if you don't understand everything immediately, we will go into all the basics through this article and learn how to create and publish a Superbook on web. In Bubblin Superbooks, *Superbook* means the superclass of all books. It's an empty container that hold the pages of your book, comics or magazine together.
 
 Here's a [demo](https://bubblin.io/book/the-solar-system-by-marvin-danig) of Superbook if you will. Like it? Awesome! Let's continue to making one now:
 

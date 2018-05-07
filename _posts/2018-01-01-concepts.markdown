@@ -35,11 +35,11 @@ Note that there are `2N` number of iframes (or pages) in the book stack. Here's 
 
 
 
-![bifolium](https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/bifolium.png)
+<img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/bifolium.png" width="100%" />
 
 A book utilizes what is called a bifolium, that introduces front and a back side of a leaf. Since a leaf has two sides-a front and a back-so a book with 15 leaves will have 30 pages in it.
 
-![templates](https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/bifolia-dotted-spine.jpg)
+<img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/bifolia-dotted-spine.jpg" width="100%" />
 
 Interestingly, handling multiple pages of a book here is a lot like handling multiple webpages of a website, but the experience and behavior is that of a real book. Oftentimes developers may feel page turn is mimicking a physical book, and therefore superfluous, but it is not. Not anymore than mimicking a physical scroll that we're used to.
 
