@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "Concept"
+date:   2018-01-01 00:00:04 -0500
+categories: documentation introduction
+published: true
+---
+
+Let us begin with a simple definition:
+
+> Book is a collection of nicely formatted pages.
+
+#### Basic HTML:
+
+There isn't a `<page>` tag in HTML standard so we'll consider `iframe` as an equivalent single unit of a page. Since book is a collection of pages, the following HTML describes the basic structure of a book well:
+
+{% highlight html %}
+
+<div id = "book">
+    <iframe srcdoc="…"> render of page-1 subresource </iframe>
+    <iframe srcdoc="…"> render of page-2 subresource </iframe>
+    <iframe srcdoc="…"> render of page-3 subresource </iframe>
+    …
+    …
+    <iframe srcdoc="…"> iframe of Page-2N here…</iframe>
+</div>
+
+{% endhighlight %}
+
+Since there isn't a `<book>` tag in HTML standard either (like there is a `video` tag) so we use a `div#book` to encapsulate the pages in an ordered stack (not list). The *order* is important here, in that it represents the reading direction and the flow of a story that has been cut-up and paginated this way.
+
+The HTML structure shown above is quite close to a [real book](https://bubblin.io/book/official-handbook-by-marvin-danig/1) on production. Note, there are `2N` number of pages (or iframes) in the book stack.
+
+Here's why:
+
+<img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/bifolium.png" width="100%" />
+
+A Superbook utilizes what is called a bifolium, which introduces the concept of a front and a backface of a leaf (a concept similar to [backface-visibility](https://developer.mozilla.org/en-US/docs/Web/CSS/backface-visibility) of elements in CSS). Since a leaf has two faces (pages), a book with 15 (*N*) leaves will have 30 (*2N*) pages in it.
+
+<img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/bifolia-dotted-spine.jpg" width="100%" />
+
+Interestingly, as seen above, handling multiple pages of a book here is a lot like handling multiple webpages of a website. Only the arrangement and *behavior* of these webpages/pages (iframes) is that of a real book. Oftentimes developers complain that page turning is like mimicking a physical book, and, therefore superfluous to the nature of web, but that is not an accurate view. Not anymore than mimicking a physical scroll that we're used to.
+
+### Superbook
+The Superbook container is made up of HTML structure as shown above with every virgin `iframe` (page) rendered independently in either dual or singular mode responsively and automatically. Each page (iframe) contains its sourcedoc that is rendered in real-time and is sandboxed from the rest of the book like a typical *single page app* (SPA).
+
+Note the parent window i.e. the `root_url` on which all the pages (`iframes`) are loaded doesn't carry any content. The `root_url` is sometimes referred to as `spine_url` and it holds the entire book (longform) in a paginated format which can ce accessed by appending `/page_no` at the end of the `spine_url`.
+

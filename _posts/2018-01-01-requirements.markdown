@@ -8,4 +8,3 @@ published: true
 
 First thing you'll need to be able to publish on Bubblin is a Bubblin Account. Go [sign up](https://bubblin.io/users/new) if you haven't already.
 
-See system [requirements]({{ site.baseurl }}{% post_url 2018-01-01-requirements %}) needed for publishing.
