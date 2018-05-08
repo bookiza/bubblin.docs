@@ -39,7 +39,7 @@ A Superbook utilizes what is called a bifolium, which introduces the concept of 
 
 <img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/bifolia-dotted-spine.jpg" width="100%" />
 
-Interestingly, as seen above, handling multiple pages of a book here is a lot like handling multiple webpages of a website. Only the arrangement and *behavior* of these webpages/pages (iframes) is that of a real book. Oftentimes developers complain that page turning is like mimicking a physical book, and, therefore superfluous to the nature of web, but that is not an accurate view. Not anymore than mimicking a physical scroll that we're used to.
+Interestingly, as seen above, handling multiple pages of a book here is a lot like handling multiple webpages of a website. Only the arrangement and *behavior* of these pages (iframes/webpages) is that of a real book. Oftentimes developers complain that page turning is like mimicking a physical book, and, therefore superfluous to the nature of web, but that is not an accurate view. Not anymore than mimicking a physical scroll that we're so used to.
 
 ### Superbook
 The Superbook container is made up of HTML structure as shown above with every virgin `iframe` (page) rendered independently in either dual or singular mode responsively and automatically. Each page (iframe) contains its sourcedoc that is rendered in real-time and is sandboxed from the rest of the book like a typical *single page app* (SPA).
