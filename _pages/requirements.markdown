@@ -15,7 +15,7 @@ If you intend to use [Bookiza](http://bookiza.io) you'll also need:
 
 
 #### Machine
-You’ll require a desktop with the following configuration:
+A desktop with following minimum configuration:
 
 #### OSes: Any
 
@@ -23,10 +23,10 @@ You’ll require a desktop with the following configuration:
 2. Linux
 3. Windows
 
-Users on Windows will also need to install a unixy-style shell interface like Powershell, Babun, Cmnder or Cygwin. Mac & linux have what is called the terminal app or the bash or the shell.
+Users on Windows will also need to install a unixy-style shell interface like [Powershell](https://docs.microsoft.com/en-us/powershell/scripting/setup/installing-windows-powershell?view=powershell-6), [Babun](http://babun.github.io/), [Cmnder](https://github.com/cmderdev/cmder) or [Cygwin](https://www.cygwin.com/). Mac & linux users have what is called the terminal app or the bash or the shell, or they could use iTerm or Hyper as well.
 
 ### Memory
 Minimum 2G RAM
 
 ### Browser
-Google Chrome, Mozilla Firefox, Apple Safari or MS Edge. Having older versions of IE alongside is also recommended for testing.
+Google Chrome, Mozilla Firefox, Apple Safari or MS Edge. Having older versions of IE is recommended as well for testing.
