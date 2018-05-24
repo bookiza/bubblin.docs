@@ -10,9 +10,11 @@ Let us begin with a simple definition:
 
 > Book is a collection of nicely formatted pages.
 
+Where the collection is essentially a *stack* of pages and not a list.
+
 #### Basic HTML:
 
-There isn't a `<page>` tag in HTML standard so we'll consider `iframe` as an equivalent single unit of a page. Since book is a collection of pages, the following HTML describes the basic structure of a book well:
+There isn't a `<page>` tag in HTML standard so we'll consider `iframe` as the nearest equivalent single unit of a page. Since book is a collection of `<pages>`, the following HTML describes the basic structure of a book well:
 
 {% highlight html %}
 
@@ -27,22 +29,28 @@ There isn't a `<page>` tag in HTML standard so we'll consider `iframe` as an equ
 
 {% endhighlight %}
 
-Since there isn't a `<book>` tag in HTML standard either (like there is a `video` tag) so we use a `div#book` to encapsulate the pages in an ordered stack (not list). The *order* is important here, in that it represents the reading direction and the flow of a story that has been cut-up and paginated this way.
+Note we don't use `<ul><li></li>…</ul>` as a corollary because `book` isn't a `list`.
 
-The HTML structure shown above is quite close to a [real book](https://bubblin.io/book/official-handbook-by-marvin-danig/1) on production. Note, there are `2N` number of pages (or iframes) in the book stack.
+Since a `<page>` is an `iframe` it follows the basic HTML mannerisms and has the following [structure]({{site.baseurl}}{% link _pages/structure.markdown %}) that is true for all `webpages`. Only in this case the existence of such a page is tied to a container that is `<book>`. Since there isn't a `<book>` tag in HTML standard either (like there is a `video` tag for videos as reference), we use a `div#book` to encapsulate `<pages>` on an ordered stack.
 
-Here's why:
+The *order* is important here, in that it represents the reading *direction* and the *flow of a story* that has been cut-up and paginated this way for [accessibility]({{ site.baseurl }}{% post_url 2018-01-01-accessibility %}).
+
+The HTML structure described above is quite close to a [real book](https://bubblin.io/book/official-handbook-by-marvin-danig/1) on production.
+
+Observe that there are `2N` number of `<pages>` (or iframes) inside a book and this could not be an odd number. Here's why:
 
 <img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/bifolium.png" width="100%" />
 
-A Superbook utilizes what is called a bifolium, which introduces the concept of a front and a backface of a leaf (a concept similar to [backface-visibility](https://developer.mozilla.org/en-US/docs/Web/CSS/backface-visibility) of elements in CSS). Since a leaf has two faces (pages), a book with 15 (*N*) leaves will have 30 (*2N*) pages in it.
+A Superbook utilizes what is called a bifolium design, which introduces the concept of a front and a backface of a leaf (similar to [backface-visibility](https://developer.mozilla.org/en-US/docs/Web/CSS/backface-visibility) of elements in CSS). Since a leaf has two faces (pages), a book with 15 (*N*) leafs will have 30 (*2N*) pages in it.
 
 <img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/bifolia-dotted-spine.jpg" width="100%" />
 
-Interestingly, as seen above, handling multiple pages of a book here is a lot like handling multiple webpages of a website. Only the *behavior* and arrangement of these (web)pages or iframes is that of a real book. Oftentimes developers think that page turning is like mimicking a physical book, and, therefore superfluous to the nature of web, but that is not an accurate view. Not anymore than mimicking a physical scroll that we're so used to.
+Interestingly, as seen from above, handling multiple pages on a book is a lot like handling multiple webpages on a website. Only the *behavior* and arrangement in stack is that of a book. Oftentimes developers think that page turning and rigid stacking is like mimicking a physical book, and, therefore superfluous to the nature of web, but that is not an accurate view. Not anymore than mimicking a physical scroll that we're so used to.
 
 ### Superbook
-The Superbook container is made up of HTML structure as shown above with every virgin `iframe` (page) rendered independently in either dual or singular mode responsively and automatically. Each page (iframe) contains its sourcedoc that is rendered in real-time and is sandboxed from the rest of the book like a typical *single page app* (SPA).
+The Superbook container is made up of HTML structure as shown above with each `<page>` a virgin `iframe` that is rendered independently from others in either dual or singular mode responsively and automatically. Each `<page>` contains a sourcedoc i.e. content that is rendered in real-time and is sandboxed from the rest of the book like a typical *single page app* (SPA). The SPA itself is `offline-first` using a serviceworker to make way for offline reading.
 
-Note the parent window i.e. the `root_url` on which all the pages (`iframes`) are loaded doesn't carry any content. The `root_url` is sometimes referred to as `spine_url` and it holds the entire book (longform) in a paginated format which can ce accessed by appending `/page_no` at the end of the `spine_url`.
+Note the parent window i.e. the `root_url` on which all the pages (`iframes`) are loaded doesn't contain any content. The `root_url` is also sometimes referred to as the `spine_url` and it holds the entire book (longform) in a paginated format that is accessible via page numbers appended to the end of the `url` like so:
+
+> https://bubblin.io/<--- your book url --->/page_no
 
