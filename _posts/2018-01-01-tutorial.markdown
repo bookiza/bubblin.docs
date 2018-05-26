@@ -152,7 +152,9 @@ a:active {
 
 Wow. Did you notice what just happened?
 
-When we saved the style rules into the CSS template box, all the pages of the book turn white simulatneously from the default bluish color. This is a very powerful feature because it lets us apply a uniform layout across the entire book from just one place. At the same time we get to keep the flexibility of customizing individual pages independently as well. How cool is that!?
+When we saved the style rules into the CSS template box, all the pages of the book turn white simulatneously. This is a very powerful feature because it lets us apply a uniform layout across the entire book from just one place. At the same time we get to keep the flexibility of customizing individual pages using the `editor`.
+
+How cool is that!?
 
 <br/>
 <br/>
@@ -169,3 +171,9 @@ Do not cram in too much content on just one page, stick to just two mid-sized 
 When your book is ready, hit `publish` and serve it hot.
 
 That's it: in just two bold steps your book is now available to anyone on the planet, from Australia to the ISS.
+
+<br/>
+<br/>
+<img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/bubblin-editor-browser-frame.jpg" width="100%" />
+<br/>
+<br/>

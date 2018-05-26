@@ -39,18 +39,37 @@ The HTML structure described above is quite close to a [real book](https://bubbl
 
 Observe that there are `2N` number of pages (or iframes) inside a book and this could not be an odd number. Here's why:
 
+<br/>
+<br/>
 <img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/bifolium.png" width="100%" />
+<br/>
+<br/>
 
 A Superbook utilizes what is called a bifolium design, which introduces the concept of a front and a backface of a leaf (similar to [backface-visibility](https://developer.mozilla.org/en-US/docs/Web/CSS/backface-visibility) of elements in CSS). Since a leaf has two faces (pages), a book with 15 (*N*) leafs will have 30 (*2N*) pages in it.
 
+<br/>
+<br/>
 <img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/bifolia-dotted-spine.jpg" width="100%" />
+<br/>
+<br/>
 
 Interestingly, as seen from above, handling multiple pages on a book is a lot like handling multiple webpages on a website. Only the *behavior* and arrangement in stack is that of a book. Oftentimes developers think that page turning and rigid stacking is like mimicking a physical book, and, therefore superfluous to the nature of web, but that is not an accurate view. Not anymore than mimicking a physical scroll that we're so used to.
 
 ### Superbook
-The Superbook container is made up of HTML structure as shown above with each `<page>` a virgin `iframe` that is rendered independently from others in either dual or singular mode responsively and automatically. Each `<page>` contains a sourcedoc i.e. content that is rendered in real-time and is sandboxed from the rest of the book like a typical *single page app* (SPA). The SPA itself is `offline-first` using a serviceworker to make way for offline reading.
+The Superbook container is made up of HTML structure as shown above with each `<page>` a virgin `iframe` that is rendered independently either `dual` or `single` view depending on landscape or portrait mode. Each `<page>` contains a sourcedoc i.e. content that is rendered in real-time and is sandboxed from the rest of the book like a typical *single page app* (SPA). The SPA itself is `offline-first` using a serviceworker to make way for offline reading.
 
 Note the parent window i.e. the `root_url` on which all the pages (`iframes`) are loaded doesn't contain any content. The `root_url` is also sometimes referred to as the `spine_url` and it holds the entire book (longform) in a paginated format that is accessible via page numbers appended to the end of the `url` like so:
 
 > https://bubblin.io/<--- your book url --->/page_no
 
+### Counting pages
+
+Page numbering on Superbooks is kept simple. The pages are counted from the cover page up until the very end i.e. back of the book. Page numbers are displayed on URL bar at the end of the `book_url` (or `root_url` or the `spine_url`). Here's how it works:
+
+<br/>
+<br/>
+<img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/page-counting-method.png" width="100%" />
+<br/>
+<br/>
+
+> It is highly recommended to turn page numbering `on` on textbooks. Enabling `has_page_numbers: on` helps the reader to not only see where they are on the book but it is also the *only* way for this information to be available on mobile phones (the `url` bar in portrait mode is too short). Read more about [accessibility]({{ site.baseurl }}{% post_url 2018-01-01-accessibility %}) guidelines for Superbooks.
