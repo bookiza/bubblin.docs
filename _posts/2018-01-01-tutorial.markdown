@@ -77,7 +77,7 @@ Sprinkle the following style rules into the CSS template to apply a `layout` a
 
 @import url('//fonts.googleapis.com/css?family=Source+Serif+Pro|Josefin+Sans');
 
-body {
+html, body {
   background: #fff;
   margin: 0 0;
   overflow: hidden;

@@ -22,11 +22,11 @@ Check out some free and open source [templates](https://github.com/bookiza/templ
 
 ### How it works:
 
-The Superbook container will automatically scale and set the outer periphery of a `<page>` i.e. iframe. It will handle the height/width proportion and `dual` or `single` view of your book automatically depending on portrait or landscape mode on user device.
+Bubblin uses a concept called *strong layouts* for books. It's neither a fixed layout that restricts scalability nor a fluid one that allows reflow beyond control. The Superbook container will automatically scale and set the outer periphery of the `<page>` i.e. iframe. It will also handle the height/width proportion using `dual` or `single` view for your book automatically depending on portrait or landscape mode on user device for "maximum real estate".
 
-The internals of the iframe is where your content and style will live.
+The innards of iframe is where your own content and style will live.
 
-Typically, you'd want to set height and width of `body`, `html` elements to `100vh` and `100vw` respectively, like so:
+Typically, you'd want to set the height and width of `body`, `html` elements to `100vh` and `100vw` respectively, like so:
 
 {% highlight css %}
 

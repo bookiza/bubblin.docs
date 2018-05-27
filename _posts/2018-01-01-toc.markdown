@@ -6,3 +6,22 @@ categories: documentation introduction
 published: true
 ---
 
+It is very easy to add a Table of Contents on your book, especially if it is long. Table of Contents provides critical accessibility deep inside your book and helps the reader jump from one page to another easily.
+
+Table of Contents can be added via cover page that accepts the following HTML, an unordered list with a classname of `toc` like so:
+
+```
+<ul class="toc">
+    <li><a href="https://bubbl.in/book/official-handbook-by-marvin-danig/2"> Ambience </a><span class="flex"> 2</span></li>
+    <li><a href="https://bubbl.in/book/official-handbook-by-marvin-danig/10"> Prologue </a><span class="flex"> 10</span></li>
+    <li><a href="https://bubbl.in/book/official-handbook-by-marvin-danig/18"> New Project </a><span class="flex"> 18</span></li>
+    …
+    …
+  <!--- List of links here here --->
+</ul>
+
+```
+Feel free to use the _table_of_contents_ of this [handbook](https://github.com/bubblin/Official-Handbook/blob/master/extras/table_of_contents.html) itself (under MIT License ) to create a table of contents for your own.
+
+Automatic Generation
+Bookiza combined with the Abelone tool can generate Table of Contents automatically. Discussion about how that works is kind of out of scope for this book.
