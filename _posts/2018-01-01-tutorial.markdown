@@ -5,6 +5,8 @@ date:   2018-01-01 00:00:01 -0500
 categories: documentation introduction
 published: true
 ---
+Learn how to write a Superbook on web.
+
 #### Using the web editor
 
 Bubblin allows short storybook writing over the web using its [in-browser]({{ site.baseurl }}{% post_url 2018-01-01-setup %}) editor.
