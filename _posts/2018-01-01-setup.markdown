@@ -6,7 +6,7 @@ categories: documentation introduction
 published: true
 ---
 
-First thing you'll need to be able to publish is a Bubblin Account. Go [sign up](https://bubblin.io/users/new) now if you haven't already with a valid email address.
+First thing you'll need to be able to publish on Bubblin is a Bubblin Account. Go [sign up](https://bubblin.io/users/new) if you haven't done that already.
 
 There are two separate ways to get your book/project up and running:
 

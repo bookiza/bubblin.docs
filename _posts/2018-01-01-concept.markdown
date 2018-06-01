@@ -6,7 +6,7 @@ categories: documentation introduction
 published: true
 ---
 
-Let us begin with a simple definition:
+Let us begin with a simple definition. What is a book?
 
 > Book is a collection of nicely formatted pages.
 

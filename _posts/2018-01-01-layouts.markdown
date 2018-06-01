@@ -6,7 +6,7 @@ categories: documentation introduction
 published: true
 ---
 
-It's very easy to apply a layout to a Superbook.
+It is super easy to apply layout on a Superbook.
 
 Use the templates feature to add a layout (style) that works across the book. Occassionally, you may also need a template for HTML, JavaScript & HEAD be applied into your book as well. For any of that, use the dropdown option for templates as shown below:
 

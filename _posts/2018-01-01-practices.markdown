@@ -6,35 +6,34 @@ categories: superbooks documentation best practices css html javascript
 published: true
 ---
 
-Here are a bunch of goodies and "no goods" when you're making a book for the web:
+A bunch of "goodies" and "no good" when you're making a Superbook for web.
 
-1. **Never use a CSS framework on your book.**
-	+ i) Avoid `bootstrap`, `foundation` or even Eric Meyer's `_reset`, it will ruin your layout.
-	+ ii) CSS frameworks are designed for apps and not books.
-	+ iii) Use open source CSS [templates](https://github.com/bookiza/templates) for layouts.
-	+ iv) Write your own style by hand if it is needed.
-	+ v) Most books do not require more than 10 lines of css code, so writing by hand is highly recommended.
-
-
-2. **Always set `typography` from the `<head>` of the parent**
-	+ i) Use only the CSS template option to add typography for your book
-	+ ii) Include `@font-faces` on the first line of your CSS.
-	+ ii) Always use web-compatible fonts that are light.
-	+ iii) More often than not, stick to the default typography set by Bubblin i.e. [EB Garamond](https://fonts.google.com/specimen/EB+Garamond) by George Duffner for text heavy books.
-	+ iv) Choose the largest possible `font-size` in `viewport units` only. We recommend keeping size of text between `4.0vw - 4.2vw` with `line height` of `1.25` at least.
-	+ v) Always use high contrast between text & background on your book.
+1. #### Always set `typography` from the `<HEAD>` of layout template.
+	+ Use `style.css` template option to add typography on your book
+	+ Include `@font-faces` on the first line of your CSS.
+	+ Always use web-compatible fonts that are light.
+	+ More often than not, stick to the default typography provided by Bubblin i.e. use [EB Garamond](https://fonts.google.com/specimen/EB+Garamond) by George Duffner for your content.
+	+ Choose the largest possible `font-size` in `viewport units` for readability. We recommend keeping the `font-size` between `4.0vw - 4.2vw` with a `line height` of `1.4` at least, and use hosted typography only when absolutely necessary.
+	+ Always use a high contrast between text & background for your content.
 
 
-3. **Never copy paste HTML straight from a document**
-	+ i) HTML extracted from PDFs or Epubs or other such file systems is usually very low quality. Use carefully.
-	+ ii) Avoid copying HTML straight up from websites like Wordpress or Medium, unless it is just paragraph tags.
-	+ iii) There is no one-to-one correlation between a PDF file and Superbook. Superbooks are far more capable and accessible.
+2. #### Never use CSS framework on a Superbook
+	+ Avoid CSS frameworks like `bootstrap`, `foundation` or even Eric Meyer's `_reset` CSS because it may ruin your layout.
+	+ CSS frameworks are meant for apps and not books.
+	+ Use layout [templates](https://github.com/bookiza/templates) for books instead, they are open source (MIT licensed) and meant for Superbooks. Contributions are welcome.
+	+ Write style by hand if it is necessary, test scaling from mobile to television. Display support information clearly on `Cover` or landing page.
+	+ Most books require no more than 10 lines of `CSS` code, so writing by hand is definitely recommended.
+
+
+3. #### Avoid copy pasting HTML straight from a document
+	+ HTML extracted from PDFs or Epubs or any other such file systems is usually low quality. Review carefully before placing it inside a Superbook.
+	+ Unless it is just paragraph tags avoid copying HTML straight from websites like Wordpress or Medium.
 
 
 4. **Internal links**
-	+ i) Internal anchors must use Bubblin's (internal hyperlinking API)[https://bubblin.io/book/official-handbook-by-marvin-danig/33], i.e. use class name `page` and `href:` to `page_no`.
-	+ ii) Always avoid reloading the whole book when the content is available locally on client.
+	+ Internal anchors must use Bubblin's [hyperlinking API](https://bubblin.io/book/official-handbook-by-marvin-danig/33) by adding a class attribute `page` and `href:` to `page_no` being linked.
+	+ Avoid reloading the whole book when the content being jumped to is available locally on client via the `hyperlinking api` linked above.
 
 5. **No ad scripts**
-	+ i) No ad or tracking scripts are allowed inside a book. You'll be banned.
-	+ ii) Try and keep your scripts to minimum.
+	+ No ad or tracking scripts are allowed inside a Superbook. You'll be banned.
+	+ Try and keep your scripts to minimum.
