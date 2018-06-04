@@ -8,7 +8,7 @@ published: true
 
 Add a Table of Contents to your book.
 
-Table of Contents provides critical accessibility inside your book and helps the reader jump from one page to another easily. It can be added via the `Cover` page or the landing page that accepts HTML in the format: an unordered list with classname `toc` like so:
+Table of Contents (ToC) provides critical access to the content deep inside your book and helps the reader jump from one page to another easily. ToC can be added via the `Cover` page or the landing page that accepts HTML in the following format: an unordered list with classname `toc` like so:
 
 ```
 <ul class="toc">
@@ -28,10 +28,7 @@ Bookiza combined with the Abelone tool can generate Table of Contents automatica
 
 ## Styling `toc`:
 
-The _table_of_contents_ can also be placed directly inside the book on a page though this is not recommended. Doing it this way restricts access to the _table_of_contents_ on only that page of the book.
-
-
-The following `toc` CSS rules are in use on the book of [Bookiza documentation](https://bubblin.io/book/bookiza-documentation-by-marvin-danig/5).
+The _table_of_contents_ can also be placed directly on a page inside the book but this is not a recommended approach. Doing so restricts access to the _table_of_contents_ only on the page it is on and, therefore, cannot be accessed from elsewhere in the book. The following `toc` CSS rules are in use on the book of [Bookiza documentation](https://bubblin.io/book/bookiza-documentation-by-marvin-danig/5).
 
 ```
 
@@ -100,3 +97,6 @@ a {
 }
 
 ```
+
+<br/>
+<br/>

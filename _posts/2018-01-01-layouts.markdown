@@ -6,10 +6,9 @@ categories: documentation introduction
 published: true
 ---
 
-It is super easy to apply layout on a Superbook.
+It is super easy to apply a layout on your Superbook. Use the `template` feature to add layout (style) that gets applied across the entire book. Occassionally, you may also need to apply a template for HTML, JavaScript & HEAD to your book.
 
-Use the templates feature to add a layout (style) that works across the book. Occassionally, you may also need a template for HTML, JavaScript & HEAD be applied into your book as well. For any of that, use the dropdown option for templates as shown below:
-
+Use the dropdown for templates as shown below:
 <br/>
 <br/>
 <img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/templates.jpg" width="100%" />
@@ -20,11 +19,9 @@ On a Bookiza project, layout can be added via the `templates` folder inside the 
 
 Check out some free and open source [templates](https://github.com/bookiza/templates) on Github to get started.
 
-### How it works:
+### Strong layouts:
 
-Bubblin uses a concept called *strong layouts* for books. It's neither a fixed layout that restricts scalability nor a fluid one that allows reflow beyond control. The Superbook container will automatically scale and set the outer periphery of the `<page>` i.e. iframe. It will also handle the height/width proportion using `dual` or `single` view for your book automatically depending on portrait or landscape mode on user device for "maximum real estate".
-
-The innards of iframe is where your own content and style will live.
+Bubblin uses a concept called *strong layouts* for books. It's neither a fixed layout that restricts scalability nor a fluid one that allows reflow beyond control. The Superbook container will automatically scale and set the outer periphery of the `<page>` i.e. iframe. It will also handle the height/width proportion using `dual` or `single` view for your book automatically depending on portrait or landscape mode of the user device. It does so by optimizing for "maximum real estate". The innards of the iframe is where your own content and style will live.
 
 Typically, you'd want to set the height and width of `body`, `html` elements to `100vh` and `100vw` respectively, like so:
 
@@ -44,7 +41,7 @@ html, body {
 
 {% endhighlight %}
 
-Notice that the `font-size` is set using `viewport units` to allow **strong** content scaling unlike anywhere else.
+Notice that the `font-size` is also set using `viewport units` to allow **strong** content scaling unlike seen anywhere else.
 
 > Rule #1: Never use a CSS framework on your book! See [best practices]({{ site.baseurl }}{% post_url 2018-01-01-practices %}) for a great layout.
 

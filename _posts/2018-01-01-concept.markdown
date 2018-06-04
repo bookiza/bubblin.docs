@@ -29,11 +29,11 @@ There isn't a `<page>` tag in HTML standard so we'll consider `iframe` as the ne
 
 {% endhighlight %}
 
-Note, we don't use `<ul><li></li>… </ul>` as a corollary because a `book` isn't a `list`.
+Note, we don't use `<ul><li></li>… </ul>` as a corollary because `book` isn't a `list`.
 
-Since a `<page>` is an `iframe` it follows the basic HTML mannerisms and has the following [structure]({{site.baseurl}}{% link _pages/structure.markdown %}) that is true for all `webpages`. Only in this case the existence of such a page is tied to a container that is `<book>`. Since there isn't a `<book>` tag in HTML standard either (like there is a `video` tag for videos as reference), we use a `div#book` to encapsulate pages on an ordered stack.
+Since `<page>` is an iframe it has the same [HTML structure]({{site.baseurl}}{% link _pages/structure.markdown %}) as any other `webpage` on the Internet—as in, it follows from the same HTML tenet that makes the web. Except in this case the existence of the `<page>` is tied to the `<book>` container instead of a website. Also, since there isn't a `<book>` tag in HTML standard either (like there is a `video` tag for videos say), we use a `div#book` to encapsulate pages on an *ordered* stack.
 
-The *order* is important here, in that it represents the reading *direction* and the *flow of a story* that has been cut-up and paginated this way for [accessibility]({{ site.baseurl }}{% post_url 2018-01-01-accessibility %}).
+The *order* is important here, in that it represents the reading *direction* and the *flow of a story* that has been cut-up and paginated this way for deeper [accessibility]({{ site.baseurl }}{% post_url 2018-01-01-accessibility %}).
 
 The HTML structure described above is quite close to a [real book](https://bubblin.io/book/official-handbook-by-marvin-danig/1) on production.
 
