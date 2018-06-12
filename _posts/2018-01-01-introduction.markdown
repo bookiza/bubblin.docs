@@ -6,7 +6,7 @@ categories: documentation introduction
 published: true
 ---
 
-Bubblin is a natural longform storytelling substrate for book writers, comics designers or magazine makers. It's a fully managed Superbook container service that is both *open* and accessible.
+Bubblin is a web-based longform storytelling substrate for book writers, comics designers or magazine makers. It's a fully managed Superbook container service that is both *open* and accessible.
 
 Read this documentation in form of a [Superbook](https://bubblin.io/book/official-handbook-by-marvin-danig/1).
 
