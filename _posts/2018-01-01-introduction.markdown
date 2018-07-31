@@ -17,11 +17,13 @@ Publishing your book directly on web comes with some natural advantages. For exa
 
 Readers can enjoy the story without being tied down to a specific piece of hardware—a Superbook usually works everywhere, see [support](https://bubblin.io/support) information for more details. And you get to measure metrics down to the very last page of your book. See the world enjoy your work anywhere, anytime, and on any device they like and not just those behind iOS or Kindle. Good thing is that your book is available to people on those devices too!
 
-### What is a Superbook? (in Bubblin Superbooks)
+### What is the Superbook in Bubblin Superbooks?
 
 > Superbook basically means **super class of book**.
 
-Superbook is an empty container for any kind of longform: books, novels, comics, magazine or anything that needs multi-page storytelling. Or even a greeting card like [this](https://bubblin.io/book/i-love-you-by-marvin-danig/1). It works like a blog so you can publish, update or unpublish any time you like. Superbooks generally work everywhere i.e. on all devices, all viewports, all OSes and all modern browsers out there. 
+Superbook is an empty container for any kind of longform: books, novels, comics, magazine or anything that needs multi-page storytelling. Or even a greeting card like [this](https://bubblin.io/book/i-love-you-by-marvin-danig/1). 
+
+Superbooks works like a blog so you can publish, update or unpublish any time you like. 
 
 ### Why Superbooks?
 
@@ -33,7 +35,6 @@ Superbooks introduce tradtional book reading experience on web. It uses some of 
 
 Want to learn how it all works? Head over to the chapter on underlying [concepts]({{ site.baseurl }}{% post_url 2018-01-01-concept %}).
 
-### The First Principle
 
 ### Environment
 The site [https://bubblin.io](https://bubblin.io) is the `production` environment for all your work. It is where your live book will live.
