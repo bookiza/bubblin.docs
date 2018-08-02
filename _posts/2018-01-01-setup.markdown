@@ -25,7 +25,7 @@ No further setup is required.
 
 A more powerful and professional way to create and publish Superbooks on Bubblin (or on your own website) is with [Bookiza][bookiza] -- the book reification tool.
 
-Bookiza is an open source "book development framework" written and maintained by the Bubblin team and a bunch of [contributors](). To set it up, following minimum system [requirements]({{site.baseurl}}{% link _pages/requirements.markdown %}) must be met.
+Bookiza is an open source "book development framework" written and maintained by the Bubblin team and a bunch of [contributors](https://github.com/bookiza/bookiza.cli/graphs/contributors) from the community. To set it up, following minimum system [requirements]({{site.baseurl}}{% link _pages/requirements.markdown %}) must be met.
 
 Assuming that there is `nodejs` and a `terminal` on your machine, with following steps you'll be up and running in under a minute:
 
