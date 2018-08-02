@@ -1,5 +1,5 @@
 #! /bin/sh
 
 bundle exec jekyll build --incremental
-rsync -va _site/ ../bubblin.io/public/docs # push to bubblin/public locally
+# rsync -va _site/ ../bubblin.io/public/docs # push to bubblin/public locally
 rsync -va _site/ marvin@bubblin.io:/var/www/bubblin.io/shared/public/docs # push to bubblin/shared/public on server
