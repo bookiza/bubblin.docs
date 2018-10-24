@@ -17,7 +17,7 @@ Publishing your book directly on web comes with some natural advantages. For exa
 
 Readers can enjoy the story without being tied down to a specific piece of hardware—a Superbook usually works everywhere, see [support](https://bubblin.io/support) information for more details. And you get to measure metrics down to the very last page of your book. See the world enjoy your work anywhere, anytime, and on any device they like and not just those behind iOS or Kindle. Good thing is that your book is available to people on those devices too!
 
-### What is the Superbook in Bubblin Superbooks?
+### What is a Superbook?
 
 > Superbook basically means **super class of book**.
 
