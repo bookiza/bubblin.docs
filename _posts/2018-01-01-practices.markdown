@@ -6,7 +6,7 @@ categories: superbooks documentation best practices css html javascript
 published: true
 ---
 
-A bunch of "goodies" and "no good" when you're making a Superbook for web.
+A bunch of goodies and "no good" when you're baking a Superbook.
 
 1. #### Always set `typography` from the `<HEAD>` of layout template.
 	+ Use `style.css` template option to add typography on your book

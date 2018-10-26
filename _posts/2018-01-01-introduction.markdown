@@ -19,7 +19,7 @@ Readers can enjoy the story without being tied down to a specific piece of hardw
 
 ### What is a Superbook?
 
-> Superbook basically means **super class of book**.
+> Superbook basically means **superclass** of an object like book.
 
 Superbook is an empty container for any kind of longform: books, novels, comics, magazine or anything that needs multi-page storytelling. Or even a greeting card like [this](https://bubblin.io/book/i-love-you-by-marvin-danig/1). 
 

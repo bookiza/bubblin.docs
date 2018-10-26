@@ -6,20 +6,19 @@ categories: documentation introduction
 published: true
 ---
 
-Choosing typography for your book is like choosing it for a website. Needless to mention, any typography that you decide to use, must be web compatible.
+Choosing typography for your Superbook is like choosing it for a website. 
 
-Bubblin provides a handful selection of fonts that is strongly cached using a `serviceworker`. The following `import` is available via the root window i.e. `spine_url` into a `seamless` `iframe`, ala `<page>`:
+Needless to mention, any typography that you opt for must be web compatible. Bubblin provides a handful selection of fonts that is strongly cached using a `serviceworker`. The following `import` is available via the root window i.e. `spine_url` into a `seamless` `iframe`, ala `<page>`:
 
 ```
-@import url(https://fonts.googleapis.com/css?family=Fjalla+One|Raleway|Lobster|EB+Garamond);
+@import url(https://fonts.googleapis.com/css?family=Raleway|Lobster|EB+Garamond);
 ```
-- Fjalla One, sans serif for the main headings on website,
-- Proxima Nova, sans serif for subheadings and subtitles,
+
 - EB Garamond, serif for all content,
 - Raleway, sans serif for occasional tang, especially with numbers, and
 - Lobster, cursive on invoice, ledgers or tang.
 
-Using any of the above listed fonts (or browser defaults) will help  keep the weight of your book down.
+Using any of the fonts listed above (or browser defaults) will keep the number of requests off and weight of your book in control.
 
 ## Custom fonts
 

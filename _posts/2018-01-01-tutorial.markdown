@@ -5,29 +5,22 @@ date:   2018-01-01 00:00:01 -0500
 categories: documentation introduction
 published: true
 ---
-Learn how to write a Superbook on web.
+In this tutorial we'll learn about writing a Superbook on web.
 
 #### Using the web editor
 
-Bubblin allows short storybook writing over the web using its [in-browser]({{ site.baseurl }}{% post_url 2018-01-01-setup %}) editor.
+Bubblin allows book writing over the web using its in-browser [book editor]({{ site.baseurl }}{% post_url 2018-01-01-setup %})—a simple code playground that is great for publishing short immersive stories, comics, novellas, weekly or biweekly magazines and other stuff like brochures, greeting cards, restaurant menus etc. Theoretically speaking one could write a full sized textbook using the online book editor on Bubblin but it is generally not recommended. For really long body of works we recommend using [Bookiza](http://bookiza.io)—a professional book baking tool—instead.
 
-It's a simple web editor (a code playground) that is good enough for creating short to medium length stories, greeting cards, novellas, weekly/biweekly magazines, brochures, restrarent menus or comics, i.e. small sized packages. Theoretically, one could write a full textbook using the editor on web but it is not recommended.
 
-Use [Bookiza](http://bookiza.io), the professional manuscript manager to write and build longform Superbooks from your local.
+The following tutorial will focus on using the in-browser book editor:
 
-This tutorial focuses on using the former, i.e. in-browser editor:
+<!-- #### A simple static book.
 
-#### A simple static book.
-
-Let us begin with the a simple example. It's fine if you don't understand everything immediately, we will go into all the basics through this article and learn how to create and publish a Superbook. *Superbook* here means *superclass* of books. It is an empty container that holds the pages of your story, which could be anything, a comics book or a magazine or textbook or a greeting card, anything you wish to publish.
+Let us begin with the a quick demo. It's fine if you don't understand everything immediately, we will go into all the basics through this article and learn how to create and publish a Superbook. *Superbook* here means *superclass* of books. It is an empty container that holds the pages of your story, which could be anything, a comics book or a magazine or textbook or a greeting card, anything you wish to publish.
 
 Here's a [demo](https://bubblin.io/book/official-handbook-by-marvin-danig/1) of a live Superbook on production.
-
+ -->
 ### Step - 1: Start a new project
-
-This tutorial will assume that you haven't written any HTML or CSS before or have only limited knowledge of it. We'll walk through every step of the book making process and there are not many to see as you'll soon learn. Our book for the purpose of this tutorial will work everywhere — on Android tablets, iPads, Kindle, iPhones, Android phones, FirefoxOS, Windows, Linux, Mac and even the LCD TVs with a web browser.
-
-It can be read offline too, thanks to the power of serviceworkers. 
 
 To start, login into your Bubblin Account and click on the `new` button from the `side_panel` as shown below to start a new *project*,: 
 
@@ -38,7 +31,7 @@ To start, login into your Bubblin Account and click on the `new` button from the
 <img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/new_project.jpg" width="100%" />
 <br/>
 <br/>
-A new project will look something like this: with four bluish colored empty leafs and three large textareas at the bottom to type in HTML, CSS and JavaScript each.
+A new project will look something like this: with three large gray colored textareas at the bottom to punch in HTML, CSS and JavaScript on each page. It will also contain four bluish colored empty pages (two leafs) to start your story with.
 
 <br/>
 <br/>
@@ -48,7 +41,7 @@ A new project will look something like this: with four bluish colored empty lea
 
 ### Step - 2: Layout
 
-We're gonna have to construct an HTML wrapper for our pages next. Do not worry if you haven't written HTML all your life because we're going to use an HTML [template](https://github.com/bookiza/templates) anyway:
+We're going to construct an HTML wrapper for our pages next. Do not worry if you haven't written HTML all your life because we're going to use an HTML [template](https://github.com/bookiza/templates) anyway:
 
 Copy and paste the following code into the HTML textarea of the editor (bottom left on screenshot shown above) and also into the `template` dropdown (show below). Yes, in both the places!:
 
