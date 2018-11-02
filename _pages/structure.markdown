@@ -7,37 +7,61 @@ published: true
 permalink: structure.html
 ---
 
-A <`page`> inside a Superbook is a typical `webpage`.
+A <`page`> inside a Superbook is a typical iframe or in other words a standard `webpage`.
 
-The only difference is that it has only a limited amount of responsive content. The `<page>` is expected to fit the entire available height of the viewport (and remain above the fold) and go from portrait to landscape not only responsively but also with an intent to occupy maximum visual size. Since in case of a Superbook, a `<page>` is a virgin `iframe`, it contains everything: a `<head>`, a `<body>` alongwith `<style>` and `javascript` if necessary.
+The only difference is that it has only a limited amount of content which _must_ scale responsively. The `<pages>` will automatically fit the entire available height and width of the viewport and go from `portrait` mode to `landscape` mode automatically while maintaining a standard page aspect ratio that occupies maximum available real estate. To see this working, trying resizing your browser on any page of this book:
 
-Here's how the internals look:
+
+> Demo: [Bookiza Documentation](https://bubblin.io/book/bookiza-documentation-by-marvin-danig/1) (Resize the browser after flipping through the book.)
+
+
+
+
+Since a `<page>` on a Superbook is a virgin `iframe`, it contains the usual markup and can contain everything else: like subresources of the `<head>`, HTML belonging to the `<body>` or `<style>` rules and even plain `javascript` if that is required.
+
+Here's how the internals of a `<page>` look like:
 
 {% highlight html %}
 <!DOCTYPE html>
 <html>
-    <head>
+    <head> <!-- Component-IV -->
         <title> { _title_of_the_book_ + /page_no } </title>
-        <style>
-        	{ /* Insert _book_layout_template_ + _page_specific_styles_ if any? */
+        <style> 
+        	{ /* <!-- Component-II --> */ 
+            /* Insert _book_layout_template_ + _page_specific_styles_ if any? */
         	  /* Generally, the html, body {} elements are assigned a height of 100vh and width 100vw.  */
         	  /* See CSS template of a book deployed in production: */
         	  /* https://github.com/marvindanig/bookiza-framework/blob/master/templates/style.scss */ }
       	</style>
-      	<!-- Other head resources via cdnjs or polyfill.io if any -->
+      	<!-- HTML of other head resources via cdnjs or polyfill.io here. (Component-IV) -->
     </head>
     <body>
+      <!-- Component-I (This is the content of the page that the reader sees) -->
       <!-- Few paragraphs of neatly formatted content here. -->
       …
       …
       …
-      <!-- Author scripts inserted here at the bottom of iframe -->
+      <script type="text/javascript">
+        // Component-III
+        // Author scripts inserted here at the bottom of iframe 
+      </script>
     </body>
 </html>
 {% endhighlight %}
 
-As you can see above there are four pieces that go into making a page: HEAD resources, BODY text, STYLE for layout and SCRIPTS at the bottom of the iframe, if required. All these four pieces can be fiddled with using Bubblin's [in-browser]({{ site.baseurl }}{% post_url 2018-01-01-setup %}) editor as shown below:
+As you can see above there are four pieces that go into making a complete `<page>`: 
+
+1. BODY HTML (Component-I), 
+2. STYLE rule for layout (Component-II), 
+3. SCRIPTS at the bottom of the `iframe` (Component-III), if required, and
+3. HEAD resources (Component-IV), if required.
+
+All the four components can be fiddled with using Bubblin's [in-browser]({{ site.baseurl }}{% post_url 2018-01-01-setup %}) editor as shown below:
 
 <div class="two-third center">
   <img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/bubblin-editor-browser-frame.jpg" width="100%" />
 </div>
+
+
+In general, if you're using [Bookiza Abelone](https://bookiza.io) to write your book, it will also contain the same `<page>` structure inside the `manuscript/` folder. There you'll see subdirectories like `page-1`, `page-2`, `page-3`… `page-2N`, each carrying the four components as discussed above i.e. a `body.html` file, a `style.css` if required, a `head.html` if required and a `scripts.js` file if required. 
+
