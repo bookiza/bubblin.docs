@@ -8,7 +8,7 @@ published: true
 
 Accessibility is critical for the success of your book.
 
-In general, your work should be available to readers with different needs and abilities.
+In general, your work should be available to all readers no matter what there situation or abilities are.
 
 An empty Superbook container meets *nearly* all acessibility guidelines per WCAG 2.1 (2018), but there are still some gaps a few challenges of the longform that a reader must overcome to enjoy your book to the very end. To help readers flow through your work without interruptions or hurdles make sure that you follow the below given accessibility guidelines: 
 

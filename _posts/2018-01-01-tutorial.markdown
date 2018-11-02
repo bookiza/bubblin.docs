@@ -5,14 +5,14 @@ date:   2018-01-01 00:00:01 -0500
 categories: documentation introduction
 published: true
 ---
-In this tutorial we'll learn about writing a Superbook on web.
+In this tutorial we'll learn how to write (or code) a Superbook using Bubblin's web-editor.
 
 #### Using the web editor
 
-Bubblin allows book writing over the web using its in-browser [book editor]({{ site.baseurl }}{% post_url 2018-01-01-setup %})—a simple code playground that is great for publishing short immersive stories, comics, novellas, weekly or biweekly magazines and other stuff like brochures, greeting cards, restaurant menus etc. Theoretically speaking one could write a full sized textbook using the online book editor on Bubblin but it is generally not recommended. For really long body of works we recommend using [Bookiza](http://bookiza.io)—a professional book baking tool—instead.
+Bubblin lets you write books online using its in-browser [book playground]({{ site.baseurl }}{% post_url 2018-01-01-setup %})—a simple code playground—that is powerful enough for short stories, comics, novellas, weekly or biweekly magazines and other miscellaneous items like brochures, greeting cards, restaurant menus etc. Theoretically speaking one could write a full length textbook using the same tool but this is not recommended. For a really long body of work we recommend using [Bookiza Abelone](http://bookiza.io), which is a professional book baking tool for the web.
 
 
-The following tutorial will focus on using the in-browser book editor:
+The following tutorial will focus on using the in-browser book editor, or the book playground:
 
 <!-- #### A simple static book.
 
@@ -24,18 +24,22 @@ Here's a [demo](https://bubblin.io/book/official-handbook-by-marvin-danig/1) of 
 
 To start, login into your Bubblin Account and click on the `new` button from the `side_panel` as shown below to start a new *project*,: 
 
-(Or press '⌘ + M' to open the menu on left. See keyboard [shortcuts]({{site.baseurl}}{% link _pages/shortcuts.markdown %}))
+Or press '⌘ + M' to open a new project (See other keyboard [shortcuts]({{site.baseurl}}{% link _pages/shortcuts.markdown %}) on Bubblin).
 
 <br/>
 <br/>
-<img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/new_project.jpg" width="100%" />
+<div class="two-third center">
+  <img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/new_project.jpg" width="100%" />
+</div>
 <br/>
 <br/>
-A new project will look something like this: with three large gray colored textareas at the bottom to punch in HTML, CSS and JavaScript on each page. It will also contain four bluish colored empty pages (two leafs) to start your story with.
+A new project will look something like this: with three large gray colored textareas at the bottom to punch in HTML, CSS and JavaScript for each page of the book. It will also show four empty bluish colored pages (two leafs) that can be navigated to using left and right arrow buttons.
 
 <br/>
 <br/>
-<img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/superbook-editor.png" width="100%" />
+<div class="two-third center">
+  <img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/superbook-editor.png" width="100%" />
+</div>
 <br/>
 <br/>
 
@@ -63,7 +67,9 @@ So now we have a heading text saying "Hello world!" and a bit of *lorem ipsum*
 
 Go to the `template` dropdown menu again and click open the CSS option (see below).
 
-<img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/templates.jpg" width="100%">
+<div class="two-third center">
+  <img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/templates.jpg" width="100%">
+</div>
 
 Sprinkle the following style rules into the CSS template to apply a `layout` and `typesetting` to the book, and hit `save`.
 
@@ -153,7 +159,9 @@ How cool is that!?
 
 <br/>
 <br/>
-<img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/laid.jpg" width="100%"/>
+<div class="two-third center">
+  <img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/laid.jpg" width="100%"/>
+</div>
 <br/>
 <br/>
 
@@ -169,6 +177,8 @@ That's it: in just two bold steps your book is now available to anyone on the p
 
 <br/>
 <br/>
-<img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/bubblin-editor-browser-frame.jpg" width="100%" />
+<div class="two-third center">
+  <img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/bubblin-editor-browser-frame.jpg" width="100%" />
+</div>
 <br/>
 <br/>
