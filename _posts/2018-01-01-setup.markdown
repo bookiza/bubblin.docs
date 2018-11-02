@@ -16,8 +16,9 @@ Bubblin has an in-built web based manuscript editor, a simple code playground, t
 
 Here's a super quick [tutorial]({{ site.baseurl }}{% post_url 2018-01-01-tutorial %}) on how to write a Superbook using web editor and layout templates.
 
-<img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/bubblin-editor-browser-frame.jpg" width="100%" />
-
+<div class="two-third center">
+	<img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/bubblin-editor-browser-frame.jpg" width="100%" />
+</div>
 No further setup is required.
 
 

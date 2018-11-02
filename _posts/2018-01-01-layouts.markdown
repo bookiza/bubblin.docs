@@ -13,7 +13,9 @@ There's also an option to pick a template for HTML, JavaScript & HEAD components
 Use the dropdown for templates as shown below:
 <br/>
 <br/>
-<img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/templates.jpg" width="100%" />
+<div class="two-third center">
+	<img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/templates.jpg" width="100%" />
+</div>
 <br/>
 <br/>
 

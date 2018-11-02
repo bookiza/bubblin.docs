@@ -38,4 +38,6 @@ Here's how the internals look:
 
 As you can see above there are four pieces that go into making a page: HEAD resources, BODY text, STYLE for layout and SCRIPTS at the bottom of the iframe, if required. All these four pieces can be fiddled with using Bubblin's [in-browser]({{ site.baseurl }}{% post_url 2018-01-01-setup %}) editor as shown below:
 
-<img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/bubblin-editor-browser-frame.jpg" width="100%" />
+<div class="two-third center">
+  <img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/bubblin-editor-browser-frame.jpg" width="100%" />
+</div>

@@ -39,9 +39,9 @@ The HTML structure described above is quite close to a [real book](https://bubbl
 
 Observe that there are `2N` number of pages (or iframes) inside a book and this could not be an odd number. Here's why:
 
-<br/>
-<br/>
-<img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/bifolium.png" width="100%" />
+<div class="two-third center">
+	<img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/bifolium.png" width="100%" />
+</div>
 <br/>
 <br/>
 
@@ -49,7 +49,9 @@ A Superbook utilizes what is called a bifolium design, which introduces the conc
 
 <br/>
 <br/>
-<img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/bifolia-dotted-spine.jpg" width="100%" />
+<div class="two-third center">
+	<img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/bifolia-dotted-spine.jpg" width="100%" />
+</div>
 <br/>
 <br/>
 
@@ -68,7 +70,9 @@ Page numbering on Superbooks is kept simple. The pages are counted from the cove
 
 <br/>
 <br/>
-<img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/page-counting-method.png" width="100%" />
+<div class="two-third center">
+	<img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/page-counting-method.png" width="100%" />
+</div>
 <br/>
 <br/>
 
