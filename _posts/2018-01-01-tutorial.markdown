@@ -22,9 +22,7 @@ Here's a [demo](https://bubblin.io/book/official-handbook-by-marvin-danig/1) of 
  -->
 ### Step - 1: Start a new project
 
-To start, login into your Bubblin Account and click on the `new` button from the `side_panel` as shown below to start a new *project*,: 
-
-Or press '⌘ + M' to open a new project (See other keyboard [shortcuts]({{site.baseurl}}{% link _pages/shortcuts.markdown %}) on Bubblin).
+To start a new *project*, login into your Bubblin Account and click on the `new` button from the side panel under the Bubblin logo as shown below. Or press '⌘ + M' to open a new _manuscript_ project (See other relevant keyboard [shortcuts]({{site.baseurl}}{% link _pages/shortcuts.markdown %})).
 
 <br/>
 <br/>
@@ -33,7 +31,9 @@ Or press '⌘ + M' to open a new project (See other keyboard [shortcuts]({{site.
 </div>
 <br/>
 <br/>
-A new project will look something like this: with three large gray colored textareas at the bottom to punch in HTML, CSS and JavaScript for each page of the book. It will also show four empty bluish colored pages (two leafs) that can be navigated to using left and right arrow buttons.
+
+### New project
+A new project will look something like this: Three large dark colored textareas at the bottom to punch in HTML, CSS and JavaScript for each page of the book. It will also show four empty bluish colored pages (two leafs) that can be navigated using left and right arrow buttons.
 
 <br/>
 <br/>
