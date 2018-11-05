@@ -34,6 +34,9 @@ A bunch of goodies and "no good" when you're baking a Superbook.
 	+ Internal anchors must use Bubblin's [hyperlinking API](https://bubblin.io/book/official-handbook-by-marvin-danig/33) by adding a class attribute `page` and `href:` to `page_no` being linked.
 	+ Avoid reloading the whole book when the content being jumped to is available locally on client via the `hyperlinking api` linked above.
 
-5. **No ad scripts**
+5. **Page numbering** 
+	+ Enable displaying [page numbers]({{site.baseurl}}{% link _pages/numbering.markdown %}) on textbooks or larger body of texts. 
+
+6. **No ad scripts**
 	+ No ad or tracking scripts are allowed inside a Superbook. You'll be banned.
 	+ Try and keep your scripts to minimum.
