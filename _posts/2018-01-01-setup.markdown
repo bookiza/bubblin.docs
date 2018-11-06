@@ -8,11 +8,11 @@ published: true
 
 First thing you'll need to be able to publish on Bubblin is a Bubblin Account. Go [sign up](https://bubblin.io/users/new) if you haven't done that already.
 
-There are two separate ways to get your book/project up and running:
+There are two separate ways to start a new book (project) for Bubblin:
 
-#### 1. Quick Editor (web)
+#### Method 1. Quick Editor (web)
 
-Bubblin has an in-built web based manuscript editor, a simple code playground, that let's you write and format your story using standard HTML, CSS and JavaScript. The editor works best on the desktop browser.
+Bubblin has an in-built web based manuscript editor—a simple code playground—that let's you compose and format the pages of your book using standard HTML, CSS and JavaScript. The editor works best on the desktop browser or on an iPad with a physical keyboard.
 
 Here's a super quick [tutorial]({{ site.baseurl }}{% post_url 2018-01-01-tutorial %}) on how to write a Superbook using web editor and layout templates.
 
@@ -22,7 +22,7 @@ Here's a super quick [tutorial]({{ site.baseurl }}{% post_url 2018-01-01-tutoria
 No further setup is required.
 
 
-#### 2. Bookiza Abelone
+#### Method 2. Bookiza Abelone
 
 A more powerful and professional way to create and publish Superbooks on Bubblin (or on your own website) is with [Bookiza][bookiza] -- the book reification tool.
 
@@ -59,5 +59,9 @@ $ bookiza new My-Awesome-New-Comics --leafs 12 --template comics
 Will create a new project with 12 fresh leafs (24 pages) inside manuscript/ folder along with a layout template meant for comics. Boom!
 
 Refer Bookiza [documentation][bookiza] for more help on this.
+
+---
+
+> For an existing book you'll need to get in [touch](https://bubblin.io/blog/contact) with the Bubblin team to convert it from its existing form to a Superbook. 
 
 [bookiza]: http://bookiza.io
