@@ -6,9 +6,9 @@ categories: documentation introduction
 published: true
 ---
 
-Bubblin is a storytelling substrate for longform—meaning for people who write novels, make comicbooks or publish magazine regularly. 
+Bubblin is a storytelling substrate for longform.
 
-It's a fully managed modern Superbook container service that hosts *open* and accessible books on web for your readers to find and engage with. A social book reader on web with a deeply integrated publishing toolchian for the 
+A site for the creative ones to publish a "well formatted" corpus like that of a book, novel, comics or a magazine. It is a fully managed Superbook container service that hosts open and accessible *codex* over the web. Bubblin comes with a deeply integrated publishing toolchain for the 
 <a rel="nofollow" href="https://en.wikipedia.org/wiki/Post-PC_era">Post-PC era</a>.
 
 <a href="https://bubblin.io"><img src="https://raw.githubusercontent.com/marvindanig/assets/master/bubblin.png" width="200px" /></a>
