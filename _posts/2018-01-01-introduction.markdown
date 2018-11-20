@@ -6,21 +6,14 @@ categories: documentation introduction
 published: true
 ---
 
-Bubblin is a web-based longform storytelling substrate for book writers, comics makers or magazine publishers. 
+Bubblin is a storytelling substrate for longform—meaning for people who write novels, make comicbooks or publish magazine regularly. 
 
-It's a fully managed Superbook container service that is both *open* and accessible. For your fans and followers it is simply social book reader on web.
+It's a fully managed modern Superbook container service that hosts *open* and accessible books on web for your readers to find and engage with. A social book reader on web with a deeply integrated publishing toolchian for the 
+<a rel="nofollow" href="https://en.wikipedia.org/wiki/Post-PC_era">Post-PC era</a>.
 
 <a href="https://bubblin.io"><img src="https://raw.githubusercontent.com/marvindanig/assets/master/bubblin.png" width="200px" /></a>
 
-Read this documentation in form of a [Superbook](https://bubblin.io/book/official-handbook-by-marvin-danig/1)?
-
-### Advantages 
-Bubblin works harder for your book than anything else on market. Here's how:
-
-Publishing your book directly on web has some natural advantages. For example, web takes care of the distribution part automatically and at a very low cost. People can enjoy your work without needing to download an artifact to their disk or owning specialized hardware. You can attract readers who don't plan ahead on reading a book as much and gain on impulsive readers. Despite being on web your book is available offline using a [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) under the hood. And SEO is on your side. 
-
-
-Readers can enjoy and share the story without being tied to specific hardware—a Superbook is generally [supported](https://bubblin.io/support) everywhere. Measure metrics down to the very last page of your book, see the world enjoy your work in real time. Transcend geographies because your readers can be anywhere and on any device.
+You can also read this documentation in form of a [Superbook](https://bubblin.io/book/official-handbook-by-marvin-danig/1) on your iPad.
 
 ### What is a Superbook?
 
@@ -38,7 +31,13 @@ Enter, Superbooks. :-)
 
 Superbooks introduce tradtional book reading experience on web. It uses some of the very same design principles that make physical books so successful. And goes beyond from there. We revisited every accessibility principle out there by picking up best of both the worlds: physical books and web, and smushed it together to build a robust Superbook container that is both scalable and responsive. For example, primary control of a Superbook is page turn.
 
-Want to learn how it all works? Head over to the chapter on underlying [concepts]({{ site.baseurl }}{% post_url 2018-01-01-concept %}).
+Want to learn how it all works? Start with a chapter on the underlying [concept]({{ site.baseurl }}{% post_url 2018-01-01-concept %}).
+
+### Advantages 
+Publishing your book directly on web has some natural advantages. For example, web takes care of the distribution part automatically and at a very low cost. People can enjoy your work without needing to download an artifact to their disk or owning specialized hardware. You can attract readers who don't plan ahead on reading a book as much and gain on impulsive readers. Despite being on web your book is available offline using a [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) under the hood. And SEO is on your side. 
+
+
+Readers can enjoy and share the story without being tied to specific hardware—a Superbook is generally [supported](https://bubblin.io/support) everywhere. Measure metrics down to the very last page of your book, see the world enjoy your work in real time. Transcend geographies because your readers can be anywhere and on any device.
 
 
 ### Environment
