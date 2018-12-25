@@ -8,12 +8,14 @@ published: true
 
 Bubblin is a storytelling substrate for longform.
 
-A site for the creative ones to publish a "well formatted" corpus like that of a book, novel, comics or a magazine. It is a fully managed Superbook container service that hosts open and accessible *codex* over the web. Bubblin comes with a deeply integrated publishing toolchain for the 
-<a rel="nofollow" href="https://en.wikipedia.org/wiki/Post-PC_era">Post-PC era</a>.
+Publish a well-formatted corpus like that of a book, novel, comics or magazine easily. Manage your manuscript with smart editions using a book editor that is both open and *accessible*. Bubblin is an iPad-first book reader that comes with a pre-integrated "developer-like" toolchain for *codex* publishing over the web. 
+
+Drive engagement and profit from a new kind of content meant for the 
+<a rel="nofollow" href="https://en.wikipedia.org/wiki/Post-PC_era">post-pc era</a>. 
 
 <a href="https://bubblin.io"><img src="https://raw.githubusercontent.com/marvindanig/assets/master/bubblin.png" width="200px" /></a>
 
-You can also read this documentation in form of a [Superbook](https://bubblin.io/book/official-handbook-by-marvin-danig/1) on your iPad.
+This documentation is also available in form of a [Superbook](https://bubblin.io/book/official-handbook-by-marvin-danig/1) for your iPad.
 
 ### What is a Superbook?
 
