@@ -6,12 +6,17 @@ categories: documentation introduction
 published: true
 ---
 
-Bubblin is a storytelling substrate for longform.
+Bubblin is a longform storytelling substrate for writers and book makers. It is an "iPad first" social book reader that comes pre-integrated with a strong "developer like" book-making toolchain (See https://bookiza.io) for *codex* publishing over the web. 
 
-Publish a well-formatted corpus like that of a book, novel, comics or magazine easily. Manage your manuscript with smart editions using a book editor that is both open and *accessible*. Bubblin is an iPad-first book reader that comes with a pre-integrated "developer-like" toolchain for *codex* publishing over the web. 
+- Publish a well-formatted corpus easily, manage your manuscript smartly. 
+- Collaborate with friends across editions using the all powerful `git`. 
+- Create short stories and children's book in an instant. 
+- Use online editor to preview responsiveness easily. 
 
-Drive engagement and profit from a new kind of content meant for the 
-<a rel="nofollow" href="https://en.wikipedia.org/wiki/Post-PC_era">post-pc era</a>. 
+Create books on open web with razor sharp focus on *accessibility*. Create new kind of content meant for the 
+<a rel="nofollow" href="https://en.wikipedia.org/wiki/Post-PC_era">post-pc era</a>. Drive engagement and profit with [transparency](https://bubblin.io/pricing) and simplicity of web.
+
+The following document explains how Superbooks work and how you can quickly get started with your first book on web.
 
 <a href="https://bubblin.io"><img src="https://raw.githubusercontent.com/marvindanig/assets/master/bubblin.png" width="200px" /></a>
 
@@ -21,9 +26,7 @@ This documentation is also available in form of a [Superbook](https://bubblin.io
 
 > Superbook means **superclass** of an object like book.
 
-It is an empty container for any kind of longform: books, novels, comics, magazine or anything that needs multi-page storytelling. Or even a greeting card like [this](https://bubblin.io/book/i-love-you-by-marvin-danig/1). 
-
-Superbooks work like a blog so you can publish, update or unpublish any time you like. 
+It is an empty container for any kind of longform: books, novels, comics, magazine or anything that needs multi-page storytelling. Even a greeting card like this [one](https://bubblin.io/book/i-love-you-by-marvin-danig/1). Superbooks work like a blog—meaning you can publish, update, add a chapter or unpublish any time you like. 
 
 ### Why Superbooks?
 
@@ -36,7 +39,7 @@ Superbooks introduce tradtional book reading experience on web. It uses some of 
 Want to learn how it all works? Start with a chapter on the underlying [concept]({{ site.baseurl }}{% post_url 2018-01-01-concept %}).
 
 ### Advantages 
-Publishing your book directly on web has some natural advantages. For example, web takes care of the distribution part automatically and at a very low cost. People can enjoy your work without needing to download an artifact to their disk or owning specialized hardware. You can attract readers who don't plan ahead on reading a book as much and gain on impulsive readers. Despite being on web your book is available offline using a [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) under the hood. And SEO is on your side. 
+Publishing your book directly on web has some automatic advantages. For example, web takes care of the distribution part naturally and at a very low cost. People can enjoy your work without needing to download an artifact to their disk or owning specialized hardware to do that. You can attract readers who don't plan ahead on reading a book as much and gain on impulsive readers. Despite being on web your book is available offline using a [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) under the hood. And SEO is on your side. 
 
 
 Readers can enjoy and share the story without being tied to specific hardware—a Superbook is generally [supported](https://bubblin.io/support) everywhere. Measure metrics down to the very last page of your book, see the world enjoy your work in real time. Transcend geographies because your readers can be anywhere and on any device.
