@@ -6,7 +6,9 @@ categories: documentation introduction
 published: true
 ---
 
-Bubblin is a longform storytelling substrate for writers and book makers. It is an "iPad first" social book reader that comes pre-integrated with a strong "developer like" book-making toolchain. Also see [Bookiza Abelone](https://bookiza.io) for *codex* publishing over web. 
+Bubblin is a longform storytelling substrate for writers and book makers. 
+
+It is an "iPad first" social book reader that comes pre-integrated with a strong "developer like" book-making toolchain. Also see [Bookiza Abelone](https://bookiza.io) for *codex* publishing over web. 
 
 - Publish a well-formatted corpus easily, manage your manuscript smartly. 
 - Collaborate with friends across editions using the all powerful `git`. 
