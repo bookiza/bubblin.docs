@@ -50,6 +50,6 @@ Readers can enjoy and share the story without being tied to specific hardware—
 ### Environment
 The site [https://bubblin.io](https://bubblin.io) is the `production` environment for all your work. It is where your live book will live.
 
-Bubblin comes with a robust pre-built `RESTful` api, a browser-side `development` environment (code playground) and a locally installable client apparatus [Bookiza](http://bookiza.io) (a `nodejs` based `development` environment and CLI tool) to help writers or developers create, test and publish their best work onto web.
+Bubblin comes with a robust pre-built `RESTful` api, a browser-side `book playground` (a code playground) and a locally installable client apparatus [Bookiza Abelone](http://bookiza.io), which is a `nodejs` based `development` environment and CLI tool to help  you _develop_ your story (book), test it and then publish straight on web.
 
-Our FREE and opensource templates make it super easy to work with.
+These tools come with free and opensource [templates](https://github.com/bookiza/templates) that are super easy to work with.
