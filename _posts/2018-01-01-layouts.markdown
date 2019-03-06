@@ -6,28 +6,13 @@ categories: documentation introduction
 published: true
 ---
 
-It is super easy to apply a layout on your Superbook. Use the layout `template` feature to apply styles across the entire book. 
+Superbooks on Bubblin use **strong layouts**. 
 
-There's also an option to pick a template for HTML, JavaScript & HEAD components of your Superbook.
+Strong layouts add visual structure to content in a way that is neither fixed which restricts scalability of content nor fluid in a way that allows uncontrollable reflow. It is somewhere in between, in that the content and layout remains elastic and stretchy to automatically occupy maximum real estate that is above the fold. The content of itself remains firm and scales in a proportionate manner so that the individual pieces retain their visual balance and positional integrity. Like stretching text on Spandex!
 
-Use the dropdown for templates as shown below:
-<br/>
-<br/>
-<div class="two-third center">
-	<img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/templates.jpg" width="100%" />
-</div>
-<br/>
-<br/>
+The Superbook container scales the outer periphery of the `<page>` (dimensions of iframe) automatically. It manages a constant aspect ratio (height : width) using `dual` or `single` mode depending on the viewport being in portrait or landscape mode. This is done in a way so that "maximum real estate" is available on book for any user device. The inners of the iframe is where an author's content and a strong layout lives.
 
-On a Bookiza project, layout can be added via the `templates` folder inside the project. Bookiza will automatically pick and apply style to your book.
-
-Check out some free and open source [templates](https://github.com/bookiza/templates) on Github to get started.
-
-### Strong layouts:
-
-Bubblin uses a concept called *strong layouts* for books. It's neither a fixed layout that restricts scalability nor a fluid one that allows reflow beyond control. The Superbook container will automatically scale and set the outer periphery of the `<page>` i.e. iframe. It will also handle the height/width proportion using `dual` or `single` view for your book automatically depending on portrait or landscape mode of the user device. It does so by optimizing for "maximum real estate". The innards of the iframe is where your own content and style will live.
-
-Typically, you'd want to set the height and width of `body`, `html` elements to `100vh` and `100vw` respectively, like so:
+Here's a somewhat contrived example of how height and width of `100vh` and `100vw` is applied on each page of the book:
 
 {% highlight css %}
 
@@ -41,11 +26,30 @@ html, body {
   font: 4vw/1.2 'Source Serif Pro', serif;
 }
 
+…
+…
+
 // Other style classes below as necessary.
 
 {% endhighlight %}
 
-Notice that the `font-size` is also set using `viewport units` to allow **strong** content scaling unlike seen anywhere else.
+Notice that the `font-size` is being set here using `viewport units` to allow _strong_ scaling unlike seen anywhere else—which brings us to the first rule of creating strong layout for Superbooks:
 
 > Rule #1: Never use a CSS framework on your book! See [best practices]({{ site.baseurl }}{% post_url 2018-01-01-practices %}) for a great layout.
 
+### How to use a Strong Layout
+
+It is super easy to apply a layout on your Superbook. Use the layout `template` feature to apply styles across the entire book. Use the dropdown for templates as shown below:
+
+
+<br/>
+<br/>
+<div class="two-third center">
+	<img src="https://raw.githubusercontent.com/bubblin/Official-Handbook/master/assets/images/templates.jpg" width="100%" />
+</div>
+<br/>
+<br/>
+
+There's also an option to pick a template for HTML, JavaScript & HEAD components of your Superbook. On a [Bookiza](https://bookiza.io) project, layout can be applied via the `templates` folder at the root of the project. Bookiza will automatically pick and apply the rules on all pages of your book.
+
+Check out some free and open source [templates](https://github.com/bookiza/templates) on Github to get started.
