@@ -6,35 +6,44 @@ categories: documentation introduction
 published: true
 ---
 
-Choosing typography for your Superbook is like choosing it for a website. 
+Choosing typography for a Superbook is a lot like choosing it for a website. More or less. =)
 
-Needless to mention, any typography that you opt for must be web compatible. Bubblin provides a handful selection of fonts that is strongly cached using a `serviceworker`. The following `import` is available via the root window i.e. `spine_url` into a `seamless` `iframe`, ala `<page>`:
+First off, any typography that you decide to use _must_ be web-compatible. Bubblin provides a small selection of fonts that are strongly cached using a Service Worker so that no extra http request is fired for these fonts. 
+
+The following `@import` is available via the root window i.e. `spine_url` of your book:
 
 ```
-@import url(https://fonts.googleapis.com/css?family=Raleway|Lobster|EB+Garamond);
+@import https://fonts.googleapis.com/css?family=Raleway|Lobster|EB+Garamond:400,400i
+
 ```
 
-- EB Garamond, serif for all content,
-- Raleway, sans serif for occasional tang, especially with numbers, and
-- Lobster, cursive on invoice, ledgers or tang.
 
-Using any of the fonts listed above (or browser defaults) will keep the number of requests off and weight of your book in control.
 
-## Custom fonts
+- [EB Garamond](https://fonts.google.com/specimen/EB+Garamond), serif for main content (text) of the book,
+- [Raleway](https://fonts.google.com/specimen/Raleway), sans serif for occasional use, especially with numeric text on book (but not page numbers), and
+- [Lobster](https://fonts.google.com/specimen/Lobster), cursive on invoice, ledgers or tang.
 
-If you're considering the [Google Fonts API](https://developers.google.com/fonts/) or any other font hosting service for custom fonts on your book, we recommend you do so as described in the section on [best practices]({{ site.baseurl }}{% post_url 2018-01-01-practices %}) for typography.
+Using any of the fonts listed above or the default ones on a browser will keep the number of http requests and the total weight of your book in control, and thus not affect the speed at which your book loads on the client. This is specially important for users on low powered  devices such as mobile.
+
+### Using custom fonts
+
+If for some reason you are considering using custom web-compatible typography such as from awesome [Google Fonts API](https://developers.google.com/fonts/) (or any other font hosting service) on your book, we recommend you do so as specified in the section on [best practices]({{ site.baseurl }}{% post_url 2018-01-01-practices %}).
+
+Include the font using link helper like so:
 
 ```HEAD
 <link href='//fonts.googleapis.com/css?family=Playfair+Display:400' rel='stylesheet' type='text/css'>
+
 ```
 
+And then on your layout template, add the clause to typeset your entire book:
 
 ```CSS
-	/*
-	* Add the following snippet for
+	
+	/* Add the following snippet for
 	*  typography via layout templates:
-	*  path/to/{bookiza project}/templates/style.css
-	*/
+	*  path/to/{bookiza project}/templates/style.css */
+
 	@charset "UTF-8";
 
 	html, body {
@@ -54,5 +63,15 @@ If you're considering the [Google Fonts API](https://developers.google.com/fonts
 	…
 ```
 
-Generally speaking use lightweight fonts with a specific weight (for example, `Playfair+Display:400` and not `Playfair+Display:400, 700, 900` or the entire selection) and `serif` motifs for the body of text. Use `viewport units` to scale the `font-size` responsively. Use a high contrast between text and background as recommended in WCAG 2.1 guidelines of 2018. Always test your book for text scaling and overflow as per design principles of `strong layouts`.
+### General advice:
+
+1. Use lightweight fonts with a specific weight. For example, use `Playfair+Display:400` to specify weight of 400 and not load `Playfair+Display:400, 700, 900` or the entire selection unless you really want to. 
+
+2. Use `serif` motifs for the body of text, they give a good feel to your book. This is opposite to the general design rule of web applications, you might want to note.
+
+3. Use `viewport units` to scale the text responsively. 
+
+4. Use a high contrast between text and background as per recommendation @WCAG 2.1 guidelines of 2018. 
+
+5. Always test your book for scaling, responsiveness and overflow triggers per specification on [strong layouts](https://bubblin.io/docs/layouts).
 
