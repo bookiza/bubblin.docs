@@ -8,17 +8,20 @@ published: true
 
 Bubblin is a longform storytelling substrate for writers and book makers. 
 
-It is an "iPad first" social book reader that comes pre-integrated with a strong "developer like" book-making toolchain. Also see [Bookiza Abelone](https://bookiza.io) for *codex* publishing over web. 
+It's a web-based "iPad first" social book reader that comes with a strong pre-integrated developer-like book making toolchain. Additionally, you might want to look at [Bookiza Abelone](https://bookiza.io)—the book *reification* framework for web. Overall, Bubblin and Bookiza are meant for *codex* publishing straight on web. 
 
-- Publish a well-formatted corpus easily, manage your manuscript smartly. 
-- Collaborate with friends across editions using the all powerful `git`. 
-- Create short stories and children's book in an instant. 
-- Use online editor to preview responsiveness easily. 
+Here's what you can do on Bubblin:
 
-Create books on open web with razor sharp focus on *accessibility*. Create new kind of content meant for the 
-<a rel="nofollow" href="https://en.wikipedia.org/wiki/Post-PC_era">post-pc era</a>. Drive engagement and profit with [transparency](https://bubblin.io/pricing) and simplicity of web.
+- Publish a well-formatted corpus easily, manage your manuscript separately using `git`. 
+- Collaborate with friends, track and update editions on live books. 
+- Create short stories, picture books and children's book in an instant with immersive experiences. 
+- Reproduce crisp typesetting on web with super close attention to line tracking. Responsively. 
+- Create books on open web with razor sharp focus on *accessibility*. 
+- Imagine new kind of books with AR/VR, webgl, shaders that's meant for the 
+<a rel="nofollow" href="https://en.wikipedia.org/wiki/Post-PC_era">post-pc era</a>. 
+- Drive engagement and profit with [transparency](https://bubblin.io/pricing) using the simplicity of web.
 
-The following document explains how Superbooks work and how you can quickly get started with your first book on web.
+The following document explains how Superbooks are made and how they work. Get started with your first book on web!
 
 <a href="https://bubblin.io"><img src="https://raw.githubusercontent.com/marvindanig/assets/master/bubblin.png" width="200px" /></a>
 
@@ -42,7 +45,6 @@ Want to learn how it all works? Start with a chapter on the underlying [concept]
 
 ### Advantages 
 Publishing your book directly on web has some automatic advantages. For example, web takes care of the distribution part naturally and at a very low cost. People can enjoy your work without needing to download an artifact to their disk or owning specialized hardware to do that. You can attract readers who don't plan ahead on reading a book as much and gain on impulsive readers. Despite being on web your book is available offline using a [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) under the hood. And SEO is on your side. 
-
 
 Readers can enjoy and share the story without being tied to specific hardware—a Superbook is generally [supported](https://bubblin.io/support) everywhere. Measure metrics down to the very last page of your book, see the world enjoy your work in real time. Transcend geographies because your readers can be anywhere and on any device.
 
