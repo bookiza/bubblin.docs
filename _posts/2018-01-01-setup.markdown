@@ -10,7 +10,7 @@ First thing you'll need to be able to publish on Bubblin is a Bubblin Account.
 
 Go [sign up](https://bubblin.io/users/new) if you haven't done that already. Once you've signed up, there are two paths to start writing and publishing new books (project) on Bubblin:
 
-#### Method 1. Quick Editor (web)
+#### Method 1. Web editor (book playground)
 
 Bubblin has an online web-based manuscript editor—a simple code playground—that let's you compose and format the pages of your book using standard HTML, CSS and JavaScript. This editor works best on the desktop browser or on an iPad with a physical keyboard.
 
