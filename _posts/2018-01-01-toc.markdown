@@ -1,34 +1,40 @@
 ---
 layout: post
 title:  "Table of Contents"
-date:   2018-01-01 00:00:00 -0500
+date:   2019-01-01 00:00:00 -0500
 categories: documentation introduction
 published: true
 ---
 
 Add a Table of Contents to your book.
 
-Table of Contents (ToC) provides critical access to the content deep inside your book and helps the reader jump from one page to another easily. ToC can be added via the `Cover` page or the landing page that accepts HTML in the following format: an unordered list with classname `toc` like so:
+Table of Contents (ToC) provides critical access to the content deep inside your book and helps the reader jump from one page to another easily. ToC can be added via the `Cover` page or the landing page of your book. The textarea accepts stripped HTML in the following format:
+
+
 
 ```
+<!-- An unordered list with a className `toc` like so: -->
+
 <ul class="toc">
-    <li><a href="https://bubbl.in/book/official-handbook-by-marvin-danig/2"> Ambience </a><span class="flex"> 2</span></li>
-    <li><a href="https://bubbl.in/book/official-handbook-by-marvin-danig/10"> Prologue </a><span class="flex"> 10</span></li>
-    <li><a href="https://bubbl.in/book/official-handbook-by-marvin-danig/18"> New Project </a><span class="flex"> 18</span></li>
+    <li><a href="https://bubblin.io/book/official-handbook-by-marvin-danig/2"> Ambience </a><span class="flex"> 2</span></li>
+    <li><a href="https://bubblin.io/book/official-handbook-by-marvin-danig/10"> Prologue </a><span class="flex"> 10</span></li>
+    <li><a href="https://bubblin.io/book/official-handbook-by-marvin-danig/18"> New Project </a><span class="flex"> 18</span></li>
     …
     …
-  <!--- List of links here here --->
+    <!--- List of absolute urls here --->
 </ul>
 
 ```
-Note the `href` attribute of links into the book have `absolute` urls. The Superbook container will automatically lift the internal links of your book via `page_numbers` at the end of the `absolute` urls. Feel free to use HTML of this very [official handbook](https://github.com/bubblin/Official-Handbook/blob/master/extras/table_of_contents.html)  (available under MIT License ) to make a Table of Contents for yourself. It is recommended to write this HTML by hand instead of automatic generation.
 
-Automatic Generation
-Bookiza combined with the Abelone tool can generate Table of Contents automatically. Discussion about how that works is kind of out of scope for this book.
+Note the `href` attribute of anchors contain full `absolute` url of the book at `page_no`. The Superbook container will automatically lift the internal links of your book via `page_numbers` at the end of the `absolute` urls. Feel free to use HTML of this very [official handbook](https://github.com/bubblin/Official-Handbook/blob/master/extras/table_of_contents.html)  (available under MIT License ) to make a Table of Contents for your own work. It is recommended to write the HTML of Table of Contents by hand only after all formatting and finishing of the book has been completed.
 
-## Styling `toc`:
+### Automatic Generation
 
-The _table_of_contents_ can also be placed directly on a page inside the book but this is not a recommended approach. Doing so restricts access to the _table_of_contents_ only on the page it is on and, therefore, cannot be accessed from elsewhere in the book. The following `toc` CSS rules are in use on the book of [Bookiza documentation](https://bubblin.io/book/bookiza-documentation-by-marvin-danig/5).
+Bookiza Abelone along with [m2s](https://github.com/bookiza/m2s) CLI can generate Table of Contents automatically. Discussion about how that works is (TODO) available on their respective READMEs.
+
+### Styling Table of Contents:
+
+The _table_of_contents_ can also be placed directly on a page inside the book but this is generally not recommended. Doing so restricts access to the _table_of_contents_ only on the page it is on and, therefore, cannot be accessed from elsewhere in the book. The following `toc` CSS rules are in use on the book of [Bookiza documentation](https://bubblin.io/book/bookiza-documentation-by-marvin-danig/5).
 
 ```
 

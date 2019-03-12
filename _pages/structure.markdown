@@ -7,31 +7,32 @@ published: true
 permalink: structure.html
 ---
 
-A `<page>` inside a Superbook is a typical iframe. Or in other words a standard `webpage` HTML.
+A `<page>` on a Superbook is a typical iframe, or in other words, a standard webpage with plain markup (HTML), style (CSS) and optionally JavaScript.
 
-The only difference is that it has only a limited amount of content which _must_ remain above the fold and _must_ also scale responsively. The `<pages>` will automatically fit the entire available height and width of the viewport and go from `portrait` to `landscape` mode automatically, all while maintaining a fixed aspect ratio that occupies maximum available real estate. 
-
-To see this in action, trying resizing your browser on any page of the following book:
+The only difference is that it has only a limited amount of each and the content _must_ always remain above the fold. The content _must_ also scale responsively. The Superbook will automatically scale itself and occupy maximum available height and width on the viewport while maintaining a fixed aspect ratio that switches from portrait to landscape mode automatically. Resize your browser to see this in action:
 
 
-> [Bookiza Documentation](https://bubblin.io/book/bookiza-documentation-by-marvin-danig/1) (Resize the browser after flipping through a few pages.)
+> Demo book [Bookiza Documentation](https://bubblin.io/book/bookiza-documentation-by-marvin-danig/1) (Resize the browser after flipping through a few pages.)
 
 
 
 
-Since a `<page>` on a Superbook is a virgin `iframe`, it contains the usual markup that is plainly used on web. By and large there are four main components of a `<page>`, and here's what the skeletal structure looks like:
+Since every `<page>` is a virgin `iframe` it contains the usual components that ismake up the web. There are four components that make up a webpage: 
 
 {% highlight html %}
 <!DOCTYPE html>
 <html>
-    <head> <!-- COMPONENT-IV -->
+    <head> /* <!-- COMPONENT-IV --> */
         <title> { _title_of_the_book_ + /page_no } </title>
         <style> 
-        	{ /* <!-- COMPONENT-II --> */ 
+            /*  COMPONENT-II  */
+
+
+
             /* Insert _book_layout_template_ + _page_specific_styles_ if any? */
-        	  /* Generally, the html, body {} elements are assigned a height of 100vh and width 100vw.  */
-        	  /* See CSS template of a book deployed in production: */
-        	  /* https://github.com/marvindanig/bookiza-framework/blob/master/templates/style.scss */ }
+            /* Generally, the html, body {} elements are assigned a height of 100vh and width 100vw.  */
+            /* See CSS template of a book deployed in production: */
+            /* https://github.com/marvindanig/bookiza-framework/blob/master/templates/style.scss */ 
       	</style>
       	<!-- HTML of other head resources via cdnjs or polyfill.io here. (COMPONENT-IV) -->
     </head>

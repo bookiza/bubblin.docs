@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Format"
+date:   2019-01-01 00:00:05 -0500
+categories: documentation introduction
+published: true
+---
+
+Superbook is a *native* e-book format for web. 
+
+It is an empty container for any kind of longform: books, novels, comics, magazine or anything that needs multi-page storytelling. 
+
+Superbooks work offline via a modern web browser i.e. like a weblog—meaning, you can edit, update, publish, collaborate and share a live book on web with page level [referential accessibility](https://bubblin.io/blog/referential-accessibility). This had been deemed impossible on web until now due to the nature of reflowable document that makes up the web.
+
+Definition:
+
+> Superbook means superclass of an object like book.
+
+The above definition, [concept](https://bubblin.io/docs/concept) and almost entire specification of Superbook format follows from the definition of the most common form book:
+
+> "A book is a series of pages assembled for easy portability and reading, as well as the composition contained in it. The book's most common modern form is that of a codex volume consisting of rectangular paper pages bound on one side, with a heavier cover and spine, so that it can fan open for reading." — <a href="https://en.wikipedia.org/wiki/Book" rel="nofollow">wikipedia</a> 
+
+The Superbook format also draws a lot from existing e-book formats and modern day front-end techniques of the web. It adheres to web accessibility guidelines as per WCAG 2.1 (2018) though there are some areas where the challenges of the longform creep up over and above the coverage of WCAG. In general the path ahead for Superbooks will be to follow the [Priority of Constituencies](https://www.w3.org/TR/html-design-principles/#priority-of-constituencies) closely and test every fundamental issue of state, usability and design principles from a codex standpoint. 
+
+This implies picking up what works best on the live medium of web without falling prey to matching a physical book or a digital file, both of which live outside of web.  

@@ -1,14 +1,36 @@
 ---
 layout: post
 title:  "Introduction"
-date:   2018-01-01 00:00:05 -0500
+date:   2019-01-01 00:00:06 -0500
 categories: documentation introduction
 published: true
 ---
 
-Bubblin is a longform storytelling substrate for writers and book makers. 
+<div class="flex">
 
-It's a web-based "iPad first" social book reader that comes with a strong pre-integrated developer-like book making toolchain. Additionally, you might want to look at [Bookiza Abelone](https://bookiza.io)—the book *reification* framework for web. Overall, Bubblin and Bookiza are meant for *codex* publishing straight on web. 
+
+	
+<div class="two-third">
+
+<p>Bubblin is a longform storytelling substrate for writers and book makers. </p>
+
+<p>It's a web-based "iPad first" social book reader that comes with a strong pre-integrated developer-like book making toolchain. Additionally, you might want to look at [Bookiza Abelone](https://bookiza.io)—the book *reification* framework for web. Overall, Bubblin and Bookiza are meant for *codex* publishing straight on web. </p>
+	
+
+</div>
+
+<div class="one-third flex">
+	
+
+<a class="right" href="https://bubblin.io"><img src="https://raw.githubusercontent.com/marvindanig/assets/master/bubblin.png" width="100px" /></a>
+
+	
+</div>
+
+</div>
+
+
+---
 
 Here's what you can do on Bubblin:
 
@@ -23,15 +45,16 @@ Here's what you can do on Bubblin:
 
 The following document explains how Superbooks are made and how they work. Get started with your first book on web!
 
-<a href="https://bubblin.io"><img src="https://raw.githubusercontent.com/marvindanig/assets/master/bubblin.png" width="200px" /></a>
 
 This documentation is also available in form of a [Superbook](https://bubblin.io/book/official-handbook-by-marvin-danig/1) for your iPad.
 
 ### What is a Superbook?
 
+Superbook is a native e-book [format](https://bubblin.io/docs/superbook) for web.
+
 > Superbook means **superclass** of an object like book.
 
-It is an empty container for any kind of longform: books, novels, comics, magazine or anything that needs multi-page storytelling. Even a greeting card like this [one](https://bubblin.io/book/i-love-you-by-marvin-danig/1). Superbooks work like a blog—meaning you can publish, update, add a chapter or unpublish any time you like. 
+It is an empty container for any kind of longform: books, novels, comics, magazine or anything that needs multi-page storytelling. You can also publish ergonomic greeting cards like this [one](https://bubblin.io/book/i-love-you-by-marvin-danig/1). Superbooks work offline but via the browser i.e. like a weblog—meaning, you can collaborate, edit, update, publish and share a live book on web with page level [referential accessibility](https://bubblin.io/blog/referential-accessibility).
 
 ### Why Superbooks?
 

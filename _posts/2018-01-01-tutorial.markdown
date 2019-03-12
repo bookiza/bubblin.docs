@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tutorial"
-date:   2018-01-01 00:00:01 -0500
+date:   2019-01-01 00:00:01 -0500
 categories: documentation introduction
 published: true
 ---
@@ -281,7 +281,9 @@ h3 {
 
 Wow. Did you see what just happened here?
 
-When you save the layout template, all the pages of the book change simulatneously. This is a very powerful feature because it lets you apply a uniform layout across the entire book from just one place. At the same time there is flexibility of adding CSS on each individual page using the gray/black textarea on the book editor. How cool is that!?
+When you save the layout template, all the pages of the book change simulatneously. This is a very powerful feature because it lets you apply a uniform layout across the entire book from just one place. At the same time there is flexibility of adding CSS on each individual page using the gray/black textarea on the book editor. 
+
+How cool is that!?
 
 <br/>
 <div class="two-third center">
@@ -289,13 +291,11 @@ When you save the layout template, all the pages of the book change simulatneous
 </div>
 <br/>
 
-CSS will format the _content_ of your book, add typography to the context and position the content i.e heading "hello world" and the paragraphs near the _mid-axis_ of the book. It will also set up _faux_ margin & padding on either sides of the text, both above and below—in a way that your content will always balance near the horizontal axis of the page. Say thanks to `flexbox` css property for this!
+CSS will format your book, add desired typography and position the content i.e heading "hello world" and the paragraphs near the _mid-axis_ of the book. It will also set up _faux_ margin & padding on either sides of the text, both above and below—in a way that is always balanced near the horizontal axis of the page. Say thanks to `flexbox` css property for this!
 
 > Stick no more than 16-18 lines of text per page. Always test your book by previewing and resizing your browser.
 
-Do not cram in too much content on just one page, stick to just two small-sized paragraphs or three small lines at the most. Flip over to the next page if line break is required. Alway maintain *visual symmetry* to avoid overflow and better line-tracking. Continue adding new pages to your book until the story finishes. New pages will automatically use the CSS and HTML template we just added in the `Layout` option above. When your book is ready, hit the `Publish` button and serve it hot on the wire.
-
-That's it: in just two bold steps your book is now available to anyone on the planet. And outside, even on the ISS… ;-)
+Do not cram in too much content on just one page. Stick to just two small-sized paragraphs or three small lines at most. Flip over to the next page if line is breaking and always maintain *visual symmetry* to avoid overflow and for better line-tracking. Continue adding new pages into your book until the story finishes. New pages will automatically use the layout CSS and HTML template we just added in the `Layout` dropdown above. When your book is ready hit `Publish` and serve it hot on the wire. That's it: in just two bold steps your book is now available to anyone on the planet. And outside, even on the ISS… ;-)
 
 <br/>
 <div class="two-third center">
