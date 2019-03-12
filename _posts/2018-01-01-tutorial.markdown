@@ -5,7 +5,7 @@ date:   2019-01-01 00:00:01 -0500
 categories: documentation introduction
 published: true
 ---
-In this tutorial we'll learn how to write (or code) a Superbook using Bubblin's online book-playground (web editor).
+In this tutorial we will take a look at creating a Superbook using Bubblin's online 'book playground.'
 
 ## Book playground
 
