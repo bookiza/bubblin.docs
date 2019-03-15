@@ -65,9 +65,9 @@ And then on your layout template, add the clause to typeset your entire book:
 
 ### General advice:
 
-1. Use lightweight fonts with a specific weight. For example, use `Playfair+Display:400` to specify weight of 400 and not load `Playfair+Display:400, 700, 900` or the entire selection unless you really want to. 
+1. Use lightweight fonts with a specific weight. For example, use `Playfair+Display:400` to specify weight of 400 and not load `Playfair+Display:400, 700, 900` or the entire selection unless you _really_ need to. 
 
-2. Use `serif` motifs for the body of text, they give a good feel to your book. This is opposite to the general design rule of web applications, you might want to note.
+2. Use `serif` motifs for the body of text, they add a professional feel on your book. This tip is opposite to the general design advice on web, please note.
 
 3. Use `viewport units` to scale the text responsively. 
 
