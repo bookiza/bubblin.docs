@@ -6,11 +6,11 @@ categories: documentation introduction
 published: true
 ---
 
-Superbook is a *native* e-book format for the web. 
+Superbook is a *native* book format for the web. 
 
-It is an empty container for any kind of longform: books, novels, comics, magazine or anything that needs multi-page storytelling. Superbooks are websites that work offline via a modern browser using a ServiceWorker i.e. like a PWA. This means that you can publish, edit, update, unpublish and collaborate on it and readers can share on a live book on the web with page-level [referential accessibility](https://bubblin.io/blog/referential-accessibility). 
+It is an empty container for any kind of longform: books, novels, comics, magazine or anything that needs multi-page storytelling. Superbooks are [websites](https://bubblin.io/blog/superbooks-are-websites) that work offline using a ServiceWorker—meaning, they are static PWAs that you can publish, edit, update and collaborate on just like an ordinary website or blog. And the readers get to enjoy your book straight on the web along with their friends and other readers by taking advantage of page-level [referential accessibility](https://bubblin.io/blog/referential-accessibility). 
 
-This was deemed impossible on web until now due to the nature of traditional webpage being a reflowable document.
+This had been deemed impossible on the web until now due to the previous requirement of reflow on traditional webpages to scale content. This requirement of reflow is no longer a constraint to be held on to to scale text correctly.
 
 ##### Definition:
 
