@@ -33,6 +33,7 @@ markdown: kramdown
 theme: doccoli-jekyll
 plugins:
   - jekyll-feed
+  - jekyll-sitemap  
 
 permalink: :title
 
